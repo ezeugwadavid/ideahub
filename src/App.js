@@ -1,14 +1,15 @@
 import React from 'react';
 import {BrowserRouter as Router, Route } from 'react-router-dom';
-// import Dashboard from './components/Dashboard';
+import Dashboard from './components/dashboard/Dashboard';
+import './Navigation.css';
 import './App.css';
-import Navigation from './components/Navigation';
+
 
 function App() {
   return (
     <Router>
     <div className="App">
-      <Route exact path="/" component={Navigation} />
+      <Route exact path="/" component={Dashboard} />
       {/* <Route exact path="/ideas" component={Ideas} />
       <Route exact path="/groups" component={Groups} />
       <Route exact path="/messages" component={Messages} />
