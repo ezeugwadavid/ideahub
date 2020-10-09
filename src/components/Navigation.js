@@ -16,12 +16,14 @@ import { Link } from 'react-router-dom';
         window.addEventListener("resize", this.resize.bind(this));
         this.resize();
     }
+
+         // removes sidebar for the break point 
     
     resize() {
         
         const sideRef = this.sideRef.current;
         
-        window.innerWidth <= 760 ? sideRef.style.width = "0" : sideRef.style.width = "320px"
+        window.innerWidth <= 1024 ? sideRef.style.width = "0" : sideRef.style.width = "320px"
     }
     
     componentWillUnmount() {
@@ -36,7 +38,7 @@ import { Link } from 'react-router-dom';
     
      
 
-     
+     // toggle nav menu
 
        closeNav = () => {
       
@@ -74,13 +76,39 @@ import { Link } from 'react-router-dom';
         
           
 
-         <div className="circle">
-         <span className="rounded-circle"></span>
-         <span className="rounded-circle"></span>
-         <img src="..." alt="..." className="rounded-circle"></img>
+        
+
+         <div className="rounded">
+
+         
+         <i class="fa fa-bell" aria-hidden="true"></i>
+         <div className="notification"><p>5</p></div>
+
+        
+
+         </div>
+         <div >
+           <img  className="rounded-notify" src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=200" alt=""/>
+          
+         </div>
+
+         <div className="rounded-image">
+
+         </div>
+        
+         
+
+         
 
          </div>
 
+
+         <div className="john">
+
+           <p><span className="john-doe">John Doe</span> <br></br>Mentee</p>
+           
+           <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+           
          </div>
       </nav>
 

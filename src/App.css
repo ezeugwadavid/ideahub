@@ -1,3 +1,6 @@
+
+/* body's backgroud image in index.css */
+
 /* side nav */
 
 .image{
@@ -12,7 +15,7 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: whitesmoke; /* Black*/
+  background-color: white; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   overflow-y: hidden; /* Disable vertical scroll */
   padding-top: 60px; /* Place content 60px from the top */
@@ -148,8 +151,14 @@
   justify-content: space-between;
   margin-left: 23%;
   margin-top: 60px;
-  
+ 
 
+}
+
+nav{
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-y: hidden; /* Disable vertical scroll */
+  
 }
 
 
@@ -174,6 +183,114 @@
 }
 
 
+.rounded{
+  background-color: white;
+  position: relative;
+  left: 20%;
+  bottom: 11.5px;
+  border: 1px solid #dbedf1;
+  border-radius: 100% !important;
+  width: 60px;
+  height: 60px;
+ 
+  padding: 7px;
+  margin-right: 1px;
+  
+}
+
+.fa-bell{
+  position: relative;
+  left: 10px;
+  top: 8px;
+  font-size: 25px;
+  color: #2d9fd9;
+}
+
+.notification{
+  position: relative;
+  bottom: 40px;
+  left: 30px;
+  border: 1px solid rgb(255, 81, 0);
+  border-radius: 100%;
+  width: 23px;
+  height: 20px;
+  padding: 10px;
+  font-weight: 200;
+  background-color: rgb(255, 81, 0);
+}
+
+.notification p{
+  position: relative;
+  bottom: 12px;
+  right: 3px;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+
+}
+
+.rounded-notify{
+  background-color: white;
+  position: relative;
+  left: 2px;
+  bottom: 10px;
+  border: 1px solid #dbedf1;
+  border-radius: 100% !important;
+  width: 60px;
+  height: 60px;
+ 
+  padding: 1px;
+  margin-right: 1px;
+  
+ 
+ 
+
+}
+
+
+.rounded-image{
+  background-color: white;
+  position: relative;
+  right: 520px;
+  bottom: 10px;
+  border: 1px solid #dbedf1;
+  border-radius: 100% !important;
+  width: 60px;
+  height: 60px;
+ 
+  padding: 7px;
+  margin-right: 1px;
+  
+
+}
+
+.john{
+  position: relative;
+  left: 82%;
+  bottom: 58px;
+  color: rgba(0, 0, 0, 0.575);
+  font-size: 19px;
+  font-family: sans-serif;
+}
+
+.john p{
+  position: relative;
+  bottom: 5px;
+  font-size: 14px;
+}
+
+.john-doe{
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.fa-chevron-down {
+  position: relative;
+  bottom: 50px;
+  left: 90px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.575);
+}
 
 
 
@@ -203,11 +320,13 @@
 
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {padding-top: 13px;}
+  .sidenav a {font-size: 16px;}
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1024px) {
+
+  /* sidenav */
   .sidenav {
     transition: 0.3s;
     height: 100%; /* 100% Full-height */
@@ -216,7 +335,7 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: whitesmoke; /* Black*/
+    background-color: white; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     overflow-y: hidden; /* Disable vertical scroll */
     padding-top: 40px; /* Place content 60px from the top */
@@ -318,25 +437,142 @@
    
   .close {
     display: block;
-    font-size: 35px;
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 36px;
+    font-size: 25px;
     margin-left: 50px;
   
     }
   .fa-bars {
     display: block;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.575);
     border-width: 2px;
     padding: 7px;
-    font-size: 10px;
     position: absolute;
     top: 10px;
     left: 0;
-    font-size: 36px;
+    font-size: 26px;
     margin-left: 12px;
    
     }
+
+
+
+
+
+  /* top nav */
+
+
+.topnav{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-top: 20px;
+ 
+
+}
+
+nav{
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-y: hidden; /* Disable vertical scroll */
+  
+}
+
+
+
+ input[type=text]{
+  position: relative;
+  top: 70px;
+  left: 13%;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+   border-radius: 20px;
+   border: 1px solid #2d9fd9;
+   color: #a0d18c;
+   width: 50%;
+   height: 20px;
+   padding: 17px;
+  }
+  
+ input[type=text]:focus {
+   outline: none;
+   border: 1px solid #2d9fd9;
+   color: black;
+}
+
+
+.rounded{
+display: none;
+  
+}
+
+.fa-bell{
+display: none;
+}
+
+.notification{
+ display: none;
+}
+
+.notification p{
+  display: none;
+
+}
+
+.rounded-notify{
+  position: relative;
+  right: 40%;
+  background-color: white;
+  border: 1px solid #dbedf1;
+  border-radius: 100% !important;
+  width: 40px;
+  height: 40px;
+  
+  padding: 1px;
+  margin-right: 10%;
+  
+ 
+ 
+
+}
+
+
+.rounded-image{
+visibility: hidden;
+  
+
+}
+
+.john{
+  position: relative;
+  left: 78%;
+  bottom: 55px;
+  color: rgba(0, 0, 0, 0.575);
+  font-size: 7px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.john p{
+  position: relative;
+  bottom: 8px;
+  font-size: 10px;
+}
+
+.john-doe {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.fa-chevron-down {
+  position: relative;
+  bottom: 50px;
+  left: 55px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.575);
+}
+
+
+
 }
