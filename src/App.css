@@ -41,9 +41,373 @@
   top: 60px;
   left: 20px;
   border: 1px solid #27b6ba;
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   border-radius: 100%;
+  background-color: #27b6ba;
+
+}
+
+.idea{
+  position: relative;
+  left: 30px;
+  top: 23px;
+
+}
+
+
+
+.fa-plus{
+  font-size: 40px;
+  color: white;
+}
+
+
+
+.new{
+  position: relative;
+  right: 6px;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  
+
+}
+
+
+
+
+
+.recent h4{
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.575);
+
+}
+
+.cards{
+  display: flex;
+  width: 85rem;
+  
+ }
+
+
+
+
+.card-img {
+  width: 45%;
+  height: 33rem;
+  margin-right: 2.5rem !important;
+}
+
+.card-img img{
+  height: 14rem;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  
+}
+
+.project-name {
+  font-family: sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.575);
+}
+
+.tags{
+  display: flex;
+  
+}
+
+.food{
+  margin-right: 1.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.575);
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  height: 1.6rem;
+}
+
+.food p {
+  position: relative;
+  bottom: 0.55rem;
+  color:  rgba(0, 0, 0, 0.575);
+}
+
+
+
+.agriculture{
+  margin-right: 1.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.575);
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  height: 1.7rem;
+}
+
+.agriculture p {
+  position: relative;
+  bottom: 0.6rem;
+  color:  rgba(0, 0, 0, 0.575);
+}
+
+
+.technology{
+  margin-right: 1.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.575);
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  height: 1.7rem;
+}
+
+.technology p {
+  position: relative;
+  bottom: 0.6rem;
+  color:  rgba(0, 0, 0, 0.575);
+}
+
+.file{
+  margin-left: 1.4rem;
+  margin-right: 1rem;
+  font-size: 12px;
+  color:  rgba(0, 0, 0, 0.575);
+}
+
+.link{
+  margin-right: 1rem;
+  color:  rgba(0, 0, 0, 0.575);
+}
+
+.fa-file{
+  font-size: 30px;
+  position: relative;
+  right: 20%;
+  
+}
+.fa-link{
+  position: relative;
+  right: 20%;
+  font-size: 20px;
+  margin-right: 1px;
+}
+
+
+
+.accepted{
+  margin-top: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.575);
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  height: 1.7rem;
+  width: 5.5rem;
+  background-color: #27b6ba;
+
+}
+
+.accepted p {
+  
+  position: relative;
+  bottom: 0.6rem;
+  color:  white;
+}
+
+
+
+.last-card{
+  position: relative;
+  bottom: 1rem;
+  left: 8%;
+  width: 35rem;
+  height: 40rem;
+  margin-left: 0rem;
+  margin-bottom: 10rem !important;
+  
+}
+
+
+
+ 
+
+
+.card-head{
+  display: flex;
+  
+}
+
+.card-profile{
+  border: 1px solid white;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  margin-right: 1rem;
+  margin-bottom: 30px;
+}
+
+.card-mentor h5{
+  position: relative;
+  top: 7px;
+  font-weight: 500;
+
+}
+
+.card-mentor p{
+  position: relative;
+  bottom: 5px;
+}
+
+.results{
+  font-size: 80px;
+  color: #27b6ba;
+}
+
+.comment{
+  font-size: 18px;
+  position: relative;
+  bottom: 10px;
+  font-weight: 500;
+}
+
+.messages{
+  display: flex;
+}
+
+.chat{
+  
+  border: 3px solid #27b6ba;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  margin-right: 10px;
+  width: 30px;
+  height: 25px;
+
+}
+
+.socials{
+  display: flex;
+
+}
+ 
+.fa-linkedin-square{
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.fa-twitter{
+  font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+  .welcome{
+    font-size: 23px;
+    padding-left: 20%;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.575);
+  }
+  
+  .name{
+    font-weight: 700;
+  }
+  
+  .display{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .card{
+    width: 55%;
+    height: 11rem;
+    border-radius: 17px;
+    margin: 17%;
+  
+  }
+  
+  .card-body{
+    padding: 20%;
+    color: rgba(0, 0, 0, 0.575);
+    
+  }
+  
+  .card-subtitle{
+    font-size: 80px !important;
+  }
+  
+  .rejected {
+    background-color: rgb(255, 81, 0);
+    
+  }
+  
+  .new-idea{
+    position: relative;
+    top: 20%;
+    left: 28%;
+    border: 1px solid #27b6ba;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #27b6ba;
+  
+  }
+  
+  .idea{
+    position: relative;
+    left: 30px;
+    top: 23px;
+  
+  }
+  
+  
+  
+  .fa-plus{
+    font-size: 40px;
+    color: white;
+  }
+  
+  
+  
+  .new{
+    position: relative;
+    right: 6px;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    
+  
+  }
+
+
+
+
 
 }
 

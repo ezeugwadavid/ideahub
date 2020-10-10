@@ -19,9 +19,10 @@ class Navigation extends Component {
   resize() {
     const sideRef = this.sideRef.current;
 
-    window.innerWidth <= 1024
-      ? (sideRef.style.width = "0")
+     window.innerWidth <= 1024
+       ? (sideRef.style.width = "0")
       : (sideRef.style.width = "320px");
+   
   }
 
   componentWillUnmount() {
@@ -43,7 +44,7 @@ class Navigation extends Component {
   render() {
     return (
       <div>
-        <nav className="">
+        <nav>
           <span>
             <i
               className="fa fa-bars"
@@ -55,7 +56,7 @@ class Navigation extends Component {
             <input className="search" placeholder="Search" type="text"></input>
 
             <div className="rounded">
-              <i class="fa fa-bell" aria-hidden="true"></i>
+              <i className="fa fa-bell" aria-hidden="true"></i>
               <div className="notification">
                 <p>5</p>
               </div>
@@ -77,7 +78,7 @@ class Navigation extends Component {
             </p>
 
             <span>
-              <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              <i className="fa fa-chevron-down" aria-hidden="true"></i>
             </span>
           </div>
         </nav>

@@ -90,11 +90,11 @@
   font-weight: 700;
   border: 1px solid white;
   padding: 6px;
-
   color: white;
   background-color: #27b6ba;
 
   width: 1px;
+  height: 1px;
   border-radius: 100%;
 }
 
@@ -294,7 +294,6 @@ input[type="text"]:focus {
 
   .nav-item {
     font-size: 13px !important;
-
     font-weight: 100 !important;
     margin-left: 30px;
     padding: 6px;
@@ -302,7 +301,6 @@ input[type="text"]:focus {
 
   .active {
     border: 1px solid white;
-
     background-color: #27b6ba;
     border-radius: 20px;
     width: 150px;
@@ -435,7 +433,6 @@ input[type="text"]:focus {
     border-radius: 100% !important;
     width: 40px;
     height: 40px;
-
     padding: 1px;
     margin-right: 10%;
   }
