@@ -74,8 +74,8 @@ import React from 'react'
       <div className="food"><p>food</p></div>
       <div className="agriculture"><p>Agriculture</p></div>
       <div className="technology"><p>Technology</p></div>
-      <div className="file"><i class="fa fa-file" aria-hidden="true"></i></div>
-      <div className="insert-link"><i class="fa fa-link" aria-hidden="true"></i></div>
+      <div className="file"><i className="fa fa-file" aria-hidden="true"></i></div>
+      <div className="insert-link"><i className="fa fa-link" aria-hidden="true"></i></div>
      
     </div>
 
@@ -104,8 +104,8 @@ import React from 'react'
       <div className="food"><p>food</p></div>
       <div className="agriculture"><p>Agriculture</p></div>
       <div className="technology"><p>Technology</p></div>
-      <div className="file"><i class="fa fa-file" aria-hidden="true"></i></div>
-      <div className="insert-link"><i class="fa fa-link" aria-hidden="true"></i></div>
+      <div className="file"><i className="fa fa-file" aria-hidden="true"></i></div>
+      <div className="insert-link"><i className="fa fa-link" aria-hidden="true"></i></div>
     </div>
 
     <div className="accepted"><p>Accepted</p></div>
@@ -145,8 +145,8 @@ import React from 'react'
     </div>
 
     <div className="socials">
-      <div className="linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></div>
-      <div className="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></div>
+      <div className="linkedin"><i class="fab fa-linkedin"></i></div>
+      <div className="twitter"><i class="fab fa-twitter"></i></div>
     </div>
 
 
