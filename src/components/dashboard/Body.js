@@ -11,7 +11,7 @@ import React from 'react'
 
           
           <div className="display">
-        <div className="card  mt-4 ">
+        <div className="card first-one mt-4 ">
           <div className="card-body">
             <h1 className="card-subtitle">12</h1>
             <h5 className="card-title">
@@ -67,14 +67,14 @@ import React from 'react'
   <img src="https://cdn.pixabay.com/photo/2014/07/05/08/30/lawnmower-384589_1280.jpg" class="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="project-name">Project Name</h5>
-    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p className="card-text">Tags</p>
+    <p className="card-text para">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p className="card-text tag-text">Tags</p>
 
     <div className="tags">
       <div className="food"><p>food</p></div>
       <div className="agriculture"><p>Agriculture</p></div>
       <div className="technology"><p>Technology</p></div>
-      <div className="file"><i className="fa fa-file" aria-hidden="true"></i></div>
+      <div className="file"><i className="far fa-file-pdf" aria-hidden="true"></i></div>
       <div className="insert-link"><i className="fa fa-link" aria-hidden="true"></i></div>
      
     </div>
@@ -97,14 +97,14 @@ import React from 'react'
   <img src="https://cdn.pixabay.com/photo/2014/07/05/08/30/lawnmower-384589_1280.jpg" class="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="project-name">Project Name</h5>
-    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p className="card-text">Tags</p>
+    <p className="card-text para">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p className="card-text tag-text">Tags</p>
 
     <div className="tags">
       <div className="food"><p>food</p></div>
       <div className="agriculture"><p>Agriculture</p></div>
       <div className="technology"><p>Technology</p></div>
-      <div className="file"><i className="fa fa-file" aria-hidden="true"></i></div>
+      <div className="file"><i className="far fa-file-pdf" aria-hidden="true"></i></div>
       <div className="insert-link"><i className="fa fa-link" aria-hidden="true"></i></div>
     </div>
 
@@ -132,7 +132,7 @@ import React from 'react'
     </div>
 
     
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's <content className="br"></content>
+    <p className="card-text last-text">Some quick example text to build on the card title and make up the bulk of the card's <content className="br"></content>
     Some quick example text to build on the card title and make up the bulk of the card's 
     content.<content className="br"></content>Some quick example text to build on the card title and make up the bulk of the card's content.
     </p>

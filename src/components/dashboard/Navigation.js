@@ -21,7 +21,7 @@ class Navigation extends Component {
 
      window.innerWidth <= 1024
        ? (sideRef.style.width = "0")
-      : (sideRef.style.width = "320px");
+      : (sideRef.style.width = "250px");
    
   }
 
@@ -34,11 +34,14 @@ class Navigation extends Component {
   closeNav = () => {
     const myRef = this.sideRef.current;
     myRef.style.width = "0";
+  
+    
   };
 
   openNav = () => {
     const myReference = this.sideRef.current;
     myReference.style.width = "250px";
+   
   };
 
   render() {
@@ -54,7 +57,7 @@ class Navigation extends Component {
           </span>
           <div className="topnav">
             <input className="search" placeholder="Search" type="text"></input>
-
+            
             <div className="rounded">
               <i className="fa fa-bell" aria-hidden="true"></i>
               <div className="notification">
@@ -81,6 +84,7 @@ class Navigation extends Component {
               <i className="fa fa-chevron-down" aria-hidden="true"></i>
             </span>
           </div>
+          
         </nav>
 
         <div className="sidenav" ref={this.sideRef}>
