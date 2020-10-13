@@ -121,7 +121,7 @@ class Navigation extends Component {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/messages">
+              <Link to="/messages" className="nav-link" >
                 <i className="far fa-envelope"></i>Messages
                 <span className="ml-2 five">5</span>
               </Link>

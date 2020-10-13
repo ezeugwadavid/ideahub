@@ -1,42 +1,40 @@
-.welcome{
+.welcome {
   font-size: 40px;
   font-weight: 100;
   color: rgba(0, 0, 0, 0.575);
 }
 
-.name{
+.name {
   font-weight: 700;
 }
 
-.display{
+.display {
   display: flex;
-  
 }
 
-.card{
+.card {
+  box-shadow: 7px 7px 7px 7px #ECF4F4;
   width: 18%;
   height: 11rem;
   border-radius: 17px;
   margin-right: 20px !important;
-
 }
 
-.card-body{
+.card-body {
   padding: 40px;
   color: rgba(0, 0, 0, 0.575);
-  
 }
 
-.card-subtitle{
+.card-subtitle {
   font-size: 80px !important;
 }
 
 .rejected {
   background-color: rgb(255, 81, 0);
-  
 }
 
-.new-idea{
+.new-idea {
+  box-shadow: 7px 7px 7px 7px #ECF4F4;
   position: relative;
   top: 60px;
   left: 20px;
@@ -45,67 +43,50 @@
   height: 100px;
   border-radius: 100%;
   background-color: #27b6ba;
-
 }
 
-.idea{
+.idea {
   position: relative;
   left: 30px;
   top: 23px;
-
 }
 
-
-
-.fa-plus{
+.fa-plus {
   font-size: 40px;
   color: white;
 }
 
-
-
-.new{
+.new {
   position: relative;
   right: 6px;
   font-size: 12px;
   font-weight: 400;
   color: white;
-  
-
 }
 
-
-
-
-
-.recent h4{
+.recent h4 {
   font-size: 40px;
   color: rgba(0, 0, 0, 0.575);
-
 }
 
-.cards{
+.cards {
   display: flex;
   width: 85rem;
   overflow-x: hidden; /* Disable horizontal scroll */
   overflow-y: hidden; /* Disable vertical scroll */
-  
- }
-
-
-
+}
 
 .card-img {
+  box-shadow: 7px 7px 7px 7px #ECF4F4;
   width: 45%;
   height: 33rem;
   margin-right: 2.5rem !important;
 }
 
-.card-img img{
+.card-img img {
   height: 14rem;
   border-top-left-radius: 17px;
   border-top-right-radius: 17px;
-  
 }
 
 .project-name {
@@ -115,12 +96,11 @@
   color: rgba(0, 0, 0, 0.575);
 }
 
-.tags{
+.tags {
   display: flex;
-  
 }
 
-.food{
+.food {
   margin-right: 1.2rem;
   border: 1px solid rgba(0, 0, 0, 0.575);
   padding: 0.5rem;
@@ -131,12 +111,10 @@
 .food p {
   position: relative;
   bottom: 0.55rem;
-  color:  rgba(0, 0, 0, 0.575);
+  color: rgba(0, 0, 0, 0.575);
 }
 
-
-
-.agriculture{
+.agriculture {
   margin-right: 1.2rem;
   border: 1px solid rgba(0, 0, 0, 0.575);
   padding: 0.5rem;
@@ -147,11 +125,10 @@
 .agriculture p {
   position: relative;
   bottom: 0.6rem;
-  color:  rgba(0, 0, 0, 0.575);
+  color: rgba(0, 0, 0, 0.575);
 }
 
-
-.technology{
+.technology {
   margin-right: 1.2rem;
   border: 1px solid rgba(0, 0, 0, 0.575);
   padding: 0.5rem;
@@ -162,37 +139,34 @@
 .technology p {
   position: relative;
   bottom: 0.6rem;
-  color:  rgba(0, 0, 0, 0.575);
+  color: rgba(0, 0, 0, 0.575);
 }
 
-.file{
+.file {
   margin-left: 1.4rem;
   margin-right: 1rem;
   font-size: 12px;
-  color:  rgba(0, 0, 0, 0.575);
+  color: rgba(0, 0, 0, 0.575);
 }
 
-.link{
+.link {
   margin-right: 1rem;
-  color:  rgba(0, 0, 0, 0.575);
+  color: rgba(0, 0, 0, 0.575);
 }
 
-.fa-file{
+.fa-file {
   font-size: 30px;
   position: relative;
   right: 20%;
-  
 }
-.fa-link{
+.fa-link {
   position: relative;
   right: 20%;
   font-size: 20px;
   margin-right: 1px;
 }
 
-
-
-.accepted{
+.accepted {
   margin-top: 10px;
   border: 1px solid rgba(0, 0, 0, 0.575);
   padding: 0.5rem;
@@ -200,19 +174,16 @@
   height: 1.7rem;
   width: 5.5rem;
   background-color: #27b6ba;
-
 }
 
 .accepted p {
-  
   position: relative;
   bottom: 0.6rem;
-  color:  white;
+  color: white;
 }
 
-
-
-.last-card{
+.last-card {
+  box-shadow: 7px 7px 7px 7px #ECF4F4;
   position: relative;
   bottom: 1rem;
   left: 8%;
@@ -220,20 +191,13 @@
   height: 40rem;
   margin-left: 0rem;
   margin-bottom: 10rem !important;
-  
 }
 
-
-
- 
-
-
-.card-head{
+.card-head {
   display: flex;
-  
 }
 
-.card-profile{
+.card-profile {
   border: 1px solid white;
   height: 60px;
   width: 60px;
@@ -242,36 +206,34 @@
   margin-bottom: 30px;
 }
 
-.card-mentor h5{
+.card-mentor h5 {
   position: relative;
   top: 7px;
   font-weight: 500;
-
 }
 
-.card-mentor p{
+.card-mentor p {
   position: relative;
   bottom: 5px;
 }
 
-.results{
+.results {
   font-size: 80px;
   color: #27b6ba;
 }
 
-.comment{
+.comment {
   font-size: 18px;
   position: relative;
   bottom: 10px;
   font-weight: 500;
 }
 
-.messages{
+.messages {
   display: flex;
 }
 
-.chat{
-  
+.chat {
   border: 3px solid #27b6ba;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
@@ -279,98 +241,60 @@
   margin-right: 10px;
   width: 30px;
   height: 25px;
-
 }
 
-.socials{
+.socials {
   display: flex;
   margin-top: 16px;
 }
- 
-.fa-linkedin{
+
+.fa-linkedin {
   font-size: 34px;
   margin-right: 13px;
-  
 }
 
-.fa-twitter{
+.fa-twitter {
   font-size: 34px;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 768px) {
-
-
-  .welcome{
+  .welcome {
     font-size: 23px;
     padding-left: 20%;
     font-weight: 100;
     color: rgba(0, 0, 0, 0.575);
   }
-  
-  .name{
+
+  .name {
     font-weight: 700;
   }
-  
-  .display{
+
+  .display {
     display: flex;
     flex-direction: column;
-    
   }
-  
-  .card{
+
+  .card {
     width: 55%;
     height: 11rem;
     border-radius: 17px;
     margin: 17%;
-  
   }
-  
-  .card-body{
+
+  .card-body {
     padding: 20%;
     color: rgba(0, 0, 0, 0.575);
-    
   }
-  
-  .card-subtitle{
+
+  .card-subtitle {
     font-size: 40px !important;
   }
-  
+
   .rejected {
     background-color: rgb(255, 81, 0);
-    
   }
-  
-  .new-idea{
+
+  .new-idea {
     position: relative;
     top: 20%;
     left: 28%;
@@ -379,352 +303,289 @@
     height: 100px;
     border-radius: 100%;
     background-color: #27b6ba;
-  
   }
-  
-  .idea{
+
+  .idea {
     position: relative;
     left: 30px;
     top: 23px;
-  
   }
-  
-  
-  
-  .fa-plus{
+
+  .fa-plus {
     font-size: 40px;
     color: white;
   }
-  
-  
-  
-  .new{
+
+  .new {
     position: relative;
     right: 6px;
     font-size: 12px;
     font-weight: 400;
     color: white;
-    
-  
   }
 
+  .recent h4 {
+    margin-left: 20%;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.575);
+  }
 
+  .cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50rem;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: hidden; /* Disable vertical scroll */
+  }
 
+  .card-img {
+    box-shadow: 7px 7px 7px 7px #ECF4F4;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: hidden; /* Disable vertical scroll */
+    width: 35%;
+    height: 31rem;
+    position: relative;
+    right: 12%;
+  }
 
+  .card-img img {
+    height: 13rem;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+  }
 
+  .project-name {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.575);
+    position: relative;
+    bottom: 29px;
+  }
 
+  .card-text {
+    font-size: 13px;
+    position: relative;
+    bottom: 19px;
+  }
 
-  
-.recent h4{
-  margin-left: 20%;
-  font-size: 35px;
-  color: rgba(0, 0, 0, 0.575);
+  .tags {
+    display: flex;
+    position: relative;
+    bottom: 20px;
+  }
 
+  .food {
+    margin-right: 0.3rem;
+    border: 1px solid rgba(0, 0, 0, 0.575);
+    padding: 0.2rem;
+    border-radius: 0.4rem;
+    height: 1.2rem;
+  }
+
+  .food p {
+    font-size: 13px;
+    position: relative;
+    bottom: 0.35rem;
+    color: rgba(0, 0, 0, 0.575);
+  }
+
+  .agriculture {
+    margin-right: 0.3rem;
+    border: 1px solid rgba(0, 0, 0, 0.575);
+    padding: 0.3rem;
+    border-radius: 0.4rem;
+    height: 1.2rem;
+  }
+
+  .agriculture p {
+    font-size: 13px;
+    position: relative;
+    bottom: 0.5rem;
+    color: rgba(0, 0, 0, 0.575);
+  }
+
+  .technology {
+    margin-right: 0.3rem;
+    border: 1px solid rgba(0, 0, 0, 0.575);
+    padding: 0.3rem;
+    border-radius: 0.4rem;
+    height: 1.2rem;
+  }
+
+  .technology p {
+    font-size: 13px;
+    position: relative;
+    bottom: 0.5rem;
+    color: rgba(0, 0, 0, 0.575);
+  }
+
+  .file {
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    font-size: 7px;
+    color: rgba(0, 0, 0, 0.575);
+  }
+
+  .link {
+    margin-right: 1rem;
+    color: rgba(0, 0, 0, 0.575);
+  }
+
+  .fa-file-pdf {
+    font-size: 17px;
+    position: relative;
+    right: 70px;
+    top: 30px;
+  }
+  .fa-link {
+    position: relative;
+    right: 80px;
+    top: 25px;
+    font-size: 13px;
+    margin-right: 1px;
+  }
+
+  .accepted {
+    position: relative;
+    bottom: 19px;
+    margin-top: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.575);
+    padding: 0.3rem;
+    border-radius: 0.6rem;
+    height: 1.2rem;
+    width: 4.5rem;
+    background-color: #27b6ba;
+  }
+
+  .accepted p {
+    font-size: 13px;
+    position: relative;
+    bottom: 0.5rem;
+    color: white;
+  }
+
+  .last-card {
+    box-shadow: 7px 7px 7px 7px #ECF4F4;
+    position: relative;
+    bottom: 1rem;
+    left: 3rem;
+    width: 17rem;
+    height: 36rem;
+    margin-left: 0rem;
+    margin-bottom: 10rem !important;
+  }
+
+  .card-head {
+    display: flex;
+  }
+
+  .card-profile {
+    border: 1px solid white;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 1rem;
+    margin-bottom: 25px;
+  }
+
+  .card-mentor h5 {
+    position: relative;
+    top: 5px;
+    font-weight: 500;
+  }
+
+  .card-mentor p {
+    position: relative;
+    bottom: 7px;
+  }
+
+  .results {
+    font-size: 60px;
+    color: #27b6ba;
+  }
+
+  .comment {
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+    font-weight: 400;
+  }
+
+  .messages {
+    display: flex;
+  }
+
+  .chat {
+    border: 3px solid #27b6ba;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-right: 10px;
+    width: 30px;
+    height: 25px;
+  }
+
+  .socials {
+    display: flex;
+    margin-top: 13px;
+  }
+
+  .fa-linkedin {
+    font-size: 32px;
+    margin-right: 13px;
+  }
+
+  .fa-twitter {
+    font-size: 32px;
+  }
 }
-
-.cards{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 50rem;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  overflow-y: hidden; /* Disable vertical scroll */
-  
- }
-
-
-
-
-.card-img {
-  overflow-x: hidden; /* Disable horizontal scroll */
-  overflow-y: hidden; /* Disable vertical scroll */
-  width: 35%;
-  height: 31rem;
-  position: relative;
-  right: 12%;
-}
-
-.card-img img{
-  height: 13rem;
-  border-top-left-radius: 17px;
-  border-top-right-radius: 17px;
-  
-}
-
-.project-name {
-  font-family: sans-serif;
-  font-size: 1.3rem;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.575);
-  position: relative;
-  bottom: 29px;
-}
-
-.card-text{
-  font-size: 13px;
-  position: relative;
-  bottom: 19px;
-}
-
-.tags{
-  display: flex;
-  position: relative;
-  bottom: 20px;
-  
-}
-
-.food{
-  margin-right: 0.3rem;
-  border: 1px solid rgba(0, 0, 0, 0.575);
-  padding: 0.2rem;
-  border-radius: 0.4rem;
-  height: 1.2rem;
-}
-
-.food p {
-  font-size: 13px;
-  position: relative;
-  bottom: 0.35rem;
-  color:  rgba(0, 0, 0, 0.575);
-}
-
-
-
-.agriculture{
-  margin-right: 0.3rem;
-  border: 1px solid rgba(0, 0, 0, 0.575);
-  padding: 0.3rem;
-  border-radius: 0.4rem;
-  height: 1.2rem;
-}
-
-.agriculture p {
-  font-size: 13px;
-  position: relative;
-  bottom: 0.5rem;
-  color:  rgba(0, 0, 0, 0.575);
-}
-
-
-.technology{
-  margin-right: 0.3rem;
-  border: 1px solid rgba(0, 0, 0, 0.575);
-  padding: 0.3rem;
-  border-radius: 0.4rem;
-  height: 1.2rem;
-}
-
-.technology p {
-  font-size: 13px;
-  position: relative;
-  bottom: 0.5rem;
-  color:  rgba(0, 0, 0, 0.575);
-}
-
-.file{
-  margin-left: 1rem;
-  margin-right: 0.5rem;
-  font-size: 7px;
-  color:  rgba(0, 0, 0, 0.575);
-}
-
-.link{
-  margin-right: 1rem;
-  color:  rgba(0, 0, 0, 0.575);
-}
-
-.fa-file-pdf{
-  font-size: 17px;
-  position: relative;
-  right: 70px;
-  top: 30px;
-  
-}
-.fa-link{
-  position: relative;
-  right: 80px;
-  top: 25px;
-  font-size: 13px;
-  margin-right: 1px;
-}
-
-
-
-.accepted{
-  position: relative;
-  bottom: 19px;
-  margin-top: 4px;
-  border: 1px solid rgba(0, 0, 0, 0.575);
-  padding: 0.3rem;
-  border-radius: 0.6rem;
-  height: 1.2rem;
-  width: 4.5rem;
-  background-color: #27b6ba;
-
-}
-
-.accepted p {
-  font-size: 13px;
-  position: relative;
-  bottom: 0.5rem;
-  color:  white;
-}
-
-
-
-.last-card{
-  
-  position: relative;
-  bottom: 1rem;
-  left: 3rem;
-  width: 17rem;
-  height: 36rem;
-  margin-left: 0rem;
-  margin-bottom: 10rem !important;
-  
-}
-
-
-
- 
-
-
-.card-head{
-  display: flex;
-  
-}
-
-.card-profile{
-  border: 1px solid white;
-  height: 50px;
-  width: 50px;
-  border-radius: 100%;
-  margin-right: 1rem;
-  margin-bottom: 25px;
-}
-
-.card-mentor h5{
-  position: relative;
-  top: 5px;
-  font-weight: 500;
-
-}
-
-.card-mentor p{
-  position: relative;
-  bottom: 7px;
-}
-
-.results{
-  font-size: 60px;
-  color: #27b6ba;
-}
-
-.comment{
-  font-size: 15px;
-  position: relative;
-  bottom: 10px;
-  font-weight: 400;
-}
-
-.messages{
-  display: flex;
-}
-
-.chat{
-  
-  border: 3px solid #27b6ba;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
-  border-bottom-right-radius: 7px;
-  margin-right: 10px;
-  width: 30px;
-  height: 25px;
-
-}
-
-.socials{
-  display: flex;
-  margin-top: 13px;
-}
- 
-.fa-linkedin{
-  font-size: 32px;
-  margin-right: 13px;
-  
-}
-
-.fa-twitter{
-  font-size: 32px;
-
-}
-
-
-
-
-
-
-
-
-
-
-}
-
-
 
 @media screen and (min-width: 1025px) and (max-width: 2000px) {
-
-
-
-
-
-  .welcome{
+  .welcome {
     font-size: 30px;
     font-weight: 100;
     color: rgba(0, 0, 0, 0.575);
     margin-left: 12%;
   }
-  
-  .name{
+
+  .name {
     font-weight: 700;
   }
-  
-  .display{
+
+  .display {
     display: flex;
-    
   }
 
-  .first-one{
-   margin-left: 12%;
+  .first-one {
+    margin-left: 12%;
   }
-  
-  .card{
+
+  .card {
+    box-shadow: 7px 7px 7px 7px #ECF4F4;
     width: 17%;
     height: 11rem;
     border-radius: 17px;
     margin-right: 20px;
- 
-    
-  
   }
-  
-  .card-body{
+
+  .card-body {
     padding: 40px;
     color: rgba(0, 0, 0, 0.575);
-    
   }
-  
-  .card-subtitle{
+
+  .card-subtitle {
     font-size: 80px !important;
   }
-  
+
   .rejected {
     background-color: rgb(255, 81, 0);
-    
   }
-  
-  .new-idea{
+
+  .new-idea {
     position: relative;
+    box-shadow: 7px 7px 7px 7px #ECF4F4;
     top: 60px;
     left: 20px;
     border: 1px solid #27b6ba;
@@ -732,71 +593,54 @@
     height: 100px;
     border-radius: 100%;
     background-color: #27b6ba;
-  
   }
-  
-  .idea{
+
+  .idea {
     position: relative;
     left: 30px;
     top: 23px;
-  
   }
-  
-  
-  
-  .fa-plus{
+
+  .fa-plus {
     font-size: 40px;
     color: white;
   }
-  
-  
-  
-  .new{
+
+  .new {
     position: relative;
     right: 6px;
     font-size: 12px;
     font-weight: 400;
     color: white;
-    
-  
   }
-  
-  
-  
-  
-  
-  .recent h4{
+
+  .recent h4 {
     font-size: 30px;
     color: rgba(0, 0, 0, 0.575);
     margin-left: 12%;
-  
   }
-  
-  .cards{
+
+  .cards {
     display: flex;
     width: 72rem;
     overflow-x: hidden; /* Disable horizontal scroll */
     overflow-y: hidden; /* Disable vertical scroll */
     margin-left: 12%;
-    
-   }
-  
-  
-  
-  
+  }
+
   .card-img {
+    box-shadow: 7px 7px 7px 7px #ECF4F4;
     width: 54%;
     height: 30rem;
     margin-right: 2.5rem !important;
   }
-  
-  .card-img img{
+
+  .card-img img {
     height: 14rem;
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
-    
   }
-  
+
   .project-name {
     position: relative;
     bottom: 7%;
@@ -806,26 +650,25 @@
     color: rgba(0, 0, 0, 0.575);
   }
 
-  .para{
+  .para {
     position: relative;
     bottom: 7%;
     font-size: 14px;
   }
 
-  .tag-text{
+  .tag-text {
     position: relative;
     bottom: 8%;
     font-size: 13px;
   }
-  
-  .tags{
+
+  .tags {
     display: flex;
     position: relative;
     bottom: 7%;
-    
   }
-  
-  .food{
+
+  .food {
     margin-right: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.575);
     padding: 0.6rem;
@@ -833,17 +676,15 @@
     height: 1.4rem;
     width: 3.2rem;
   }
-  
+
   .food p {
     font-size: 12px;
     position: relative;
     bottom: 0.55rem;
-    color:  rgba(0, 0, 0, 0.575);
+    color: rgba(0, 0, 0, 0.575);
   }
-  
-  
-  
-  .agriculture{
+
+  .agriculture {
     font-size: 12px;
     margin-right: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.575);
@@ -852,15 +693,14 @@
     height: 1.4rem;
     width: 6rem;
   }
-  
+
   .agriculture p {
     position: relative;
     bottom: 0.6rem;
-    color:  rgba(0, 0, 0, 0.575);
+    color: rgba(0, 0, 0, 0.575);
   }
-  
-  
-  .technology{
+
+  .technology {
     font-size: 12px;
     margin-right: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.575);
@@ -869,41 +709,38 @@
     height: 1.4rem;
     width: 6rem;
   }
-  
+
   .technology p {
     position: relative;
     bottom: 0.6rem;
-    color:  rgba(0, 0, 0, 0.575);
+    color: rgba(0, 0, 0, 0.575);
   }
-  
-  .file{
+
+  .file {
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: 12px;
-    color:  rgba(0, 0, 0, 0.575);
+    color: rgba(0, 0, 0, 0.575);
   }
-  
-  .link{
+
+  .link {
     margin-right: 1rem;
-    color:  rgba(0, 0, 0, 0.575);
+    color: rgba(0, 0, 0, 0.575);
   }
-  
-  .fa-file-pdf{
+
+  .fa-file-pdf {
     font-size: 25px;
     position: relative;
     right: 30%;
-    
   }
-  .fa-link{
+  .fa-link {
     position: relative;
     right: 30px;
     font-size: 15px;
     margin-right: 1px;
   }
-  
-  
-  
-  .accepted{
+
+  .accepted {
     position: relative;
     bottom: 7%;
     font-size: 12px;
@@ -914,19 +751,16 @@
     height: 1.4rem;
     width: 4.6rem;
     background-color: #27b6ba;
-  
   }
-  
+
   .accepted p {
-    
     position: relative;
     bottom: 0.6rem;
-    color:  white;
+    color: white;
   }
-  
-  
-  
-  .last-card{
+
+  .last-card {
+    box-shadow: 7px 7px 7px 7px #ECF4F4;
     position: relative;
     bottom: 1rem;
     left: 2%;
@@ -935,20 +769,13 @@
     margin-left: 0rem;
     margin-bottom: 10rem !important;
     margin-top: 3%;
-    
   }
-  
-  
-  
-   
-  
-  
-  .card-head{
+
+  .card-head {
     display: flex;
-    
   }
-  
-  .card-profile{
+
+  .card-profile {
     border: 1px solid white;
     height: 60px;
     width: 60px;
@@ -956,42 +783,39 @@
     margin-right: 1rem;
     margin-bottom: 25px;
   }
-  
-  .card-mentor h5{
+
+  .card-mentor h5 {
     position: relative;
     top: 7px;
     font-weight: 500;
-    
-  
   }
-  
-  .card-mentor p{
+
+  .card-mentor p {
     position: relative;
     bottom: 5px;
   }
 
-  .last-text{
+  .last-text {
     font-size: 14px;
   }
-  
-  .results{
+
+  .results {
     font-size: 60px;
     color: #27b6ba;
   }
-  
-  .comment{
+
+  .comment {
     font-size: 15px;
     position: relative;
     bottom: 10px;
     font-weight: 500;
   }
-  
-  .messages{
+
+  .messages {
     display: flex;
   }
-  
-  .chat{
-    
+
+  .chat {
     border: 3px solid #27b6ba;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
@@ -999,84 +823,69 @@
     margin-right: 10px;
     width: 28px;
     height: 28px;
-  
   }
-  
-  .socials{
+
+  .socials {
     display: flex;
     margin-top: 16px;
   }
-   
-  .fa-linkedin{
+
+  .fa-linkedin {
     font-size: 30px;
     margin-right: 13px;
-    
-  }
-  
-  .fa-twitter{
-    font-size: 30px;
-  
   }
 
+  .fa-twitter {
+    font-size: 30px;
+  }
 }
 
-
-
-  
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-
-  .recent h4{
+  .recent h4 {
     margin-left: 12%;
     font-size: 35px;
     color: rgba(0, 0, 0, 0.575);
-  
   }
 
-  .welcome{
+  .welcome {
     font-size: 30px;
     font-weight: 100;
     color: rgba(0, 0, 0, 0.575);
     margin-left: 12%;
   }
-  
-  .name{
+
+  .name {
     font-weight: 700;
   }
-  
-  .display{
+
+  .display {
     display: flex;
-    
   }
 
-  .first-one{
-   margin-left: 12%;
+  .first-one {
+    margin-left: 12%;
   }
-  .cards{
+  .cards {
     display: flex;
     flex-direction: column;
     width: 72rem;
     overflow-x: hidden; /* Disable horizontal scroll */
     overflow-y: hidden; /* Disable vertical scroll */
     margin-left: 12%;
-    
-   }
-  
-  
-  
-  
+  }
+
   .card-img {
     width: 54%;
     height: 30rem;
     margin-right: 2.5rem !important;
   }
-  
-  .card-img img{
+
+  .card-img img {
     height: 14rem;
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
-    
   }
-  
+
   .project-name {
     position: relative;
     bottom: 7%;
@@ -1086,26 +895,25 @@
     color: rgba(0, 0, 0, 0.575);
   }
 
-  .para{
+  .para {
     position: relative;
     bottom: 7%;
     font-size: 14px;
   }
 
-  .tag-text{
+  .tag-text {
     position: relative;
     bottom: 8%;
     font-size: 13px;
   }
-  
-  .tags{
+
+  .tags {
     display: flex;
     position: relative;
     bottom: 7%;
-    
   }
-  
-  .food{
+
+  .food {
     margin-right: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.575);
     padding: 0.6rem;
@@ -1113,17 +921,15 @@
     height: 1.4rem;
     width: 3.2rem;
   }
-  
+
   .food p {
     font-size: 12px;
     position: relative;
     bottom: 0.55rem;
-    color:  rgba(0, 0, 0, 0.575);
+    color: rgba(0, 0, 0, 0.575);
   }
-  
-  
-  
-  .agriculture{
+
+  .agriculture {
     font-size: 12px;
     margin-right: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.575);
@@ -1132,15 +938,14 @@
     height: 1.4rem;
     width: 6rem;
   }
-  
+
   .agriculture p {
     position: relative;
     bottom: 0.6rem;
-    color:  rgba(0, 0, 0, 0.575);
+    color: rgba(0, 0, 0, 0.575);
   }
-  
-  
-  .technology{
+
+  .technology {
     font-size: 12px;
     margin-right: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.575);
@@ -1149,41 +954,38 @@
     height: 1.4rem;
     width: 6rem;
   }
-  
+
   .technology p {
     position: relative;
     bottom: 0.6rem;
-    color:  rgba(0, 0, 0, 0.575);
+    color: rgba(0, 0, 0, 0.575);
   }
-  
-  .file{
+
+  .file {
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: 12px;
-    color:  rgba(0, 0, 0, 0.575);
+    color: rgba(0, 0, 0, 0.575);
   }
-  
-  .link{
+
+  .link {
     margin-right: 1rem;
-    color:  rgba(0, 0, 0, 0.575);
+    color: rgba(0, 0, 0, 0.575);
   }
-  
-  .fa-file-pdf{
+
+  .fa-file-pdf {
     font-size: 25px;
     position: relative;
     right: 30%;
-    
   }
-  .fa-link{
+  .fa-link {
     position: relative;
     right: 30px;
     font-size: 15px;
     margin-right: 1px;
   }
-  
-  
-  
-  .accepted{
+
+  .accepted {
     position: relative;
     bottom: 7%;
     font-size: 12px;
@@ -1194,19 +996,15 @@
     height: 1.4rem;
     width: 4.6rem;
     background-color: #27b6ba;
-  
   }
-  
+
   .accepted p {
-    
     position: relative;
     bottom: 0.6rem;
-    color:  white;
+    color: white;
   }
-  
-  
-  
-  .last-card{
+
+  .last-card {
     position: relative;
     bottom: 1rem;
     left: 2%;
@@ -1215,20 +1013,13 @@
     margin-left: 0rem;
     margin-bottom: 10rem !important;
     margin-top: 3%;
-    
   }
-  
-  
-  
-   
-  
-  
-  .card-head{
+
+  .card-head {
     display: flex;
-    
   }
-  
-  .card-profile{
+
+  .card-profile {
     border: 1px solid white;
     height: 60px;
     width: 60px;
@@ -1236,42 +1027,39 @@
     margin-right: 1rem;
     margin-bottom: 25px;
   }
-  
-  .card-mentor h5{
+
+  .card-mentor h5 {
     position: relative;
     top: 7px;
     font-weight: 500;
-    
-  
   }
-  
-  .card-mentor p{
+
+  .card-mentor p {
     position: relative;
     bottom: 5px;
   }
 
-  .last-text{
+  .last-text {
     font-size: 14px;
   }
-  
-  .results{
+
+  .results {
     font-size: 60px;
     color: #27b6ba;
   }
-  
-  .comment{
+
+  .comment {
     font-size: 15px;
     position: relative;
     bottom: 10px;
     font-weight: 500;
   }
-  
-  .messages{
+
+  .messages {
     display: flex;
   }
-  
-  .chat{
-    
+
+  .chat {
     border: 3px solid #27b6ba;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
@@ -1279,42 +1067,30 @@
     margin-right: 10px;
     width: 28px;
     height: 28px;
-  
   }
-  
-  .socials{
+
+  .socials {
     display: flex;
     margin-top: 16px;
   }
-   
-  .fa-linkedin{
+
+  .fa-linkedin {
     font-size: 30px;
     margin-right: 13px;
-    
   }
-  
-  .fa-twitter{
+
+  .fa-twitter {
     font-size: 30px;
-  
   }
-
-
-
-
-
 }
 
-
 @media screen and (min-width: 650px) and (max-width: 768px) {
-
   .card-img {
     width: 48%;
     height: 33rem;
     margin-right: 2.5rem !important;
     margin-left: 26%;
   }
-
-
 
   .project-name {
     position: relative;
@@ -1325,105 +1101,96 @@
     color: rgba(0, 0, 0, 0.575);
   }
 
-  .para{
+  .para {
     position: relative;
     bottom: 10%;
     font-size: 16px;
   }
 
-  .tag-text{
+  .tag-text {
     position: relative;
     bottom: 10%;
     font-size: 14px;
   }
 
-
-
-  .tags{
+  .tags {
     display: flex;
     position: relative;
     bottom: 12%;
-    
   }
-  
-  .food{
+
+  .food {
     margin-right: 0.3rem;
     border: 1px solid rgba(0, 0, 0, 0.575);
     padding: 0.2rem;
     border-radius: 0.4rem;
     height: 1.2rem;
   }
-  
+
   .food p {
     font-size: 13px;
     position: relative;
     bottom: 0.35rem;
-    color:  rgba(0, 0, 0, 0.575);
+    color: rgba(0, 0, 0, 0.575);
   }
-  
-  
-  
-  .agriculture{
+
+  .agriculture {
     margin-right: 0.3rem;
     border: 1px solid rgba(0, 0, 0, 0.575);
     padding: 0.3rem;
     border-radius: 0.4rem;
     height: 1.2rem;
   }
-  
+
   .agriculture p {
     font-size: 13px;
     position: relative;
     bottom: 0.5rem;
-    color:  rgba(0, 0, 0, 0.575);
+    color: rgba(0, 0, 0, 0.575);
   }
-  
-  
-  .technology{
+
+  .technology {
     margin-right: 0.3rem;
     border: 1px solid rgba(0, 0, 0, 0.575);
     padding: 0.3rem;
     border-radius: 0.4rem;
     height: 1.2rem;
   }
-  
+
   .technology p {
     font-size: 13px;
     position: relative;
     bottom: 0.5rem;
-    color:  rgba(0, 0, 0, 0.575);
+    color: rgba(0, 0, 0, 0.575);
   }
-  
-  .file{
+
+  .file {
     margin-left: 1rem;
     margin-right: 0.5rem;
     font-size: 7px;
-    color:  rgba(0, 0, 0, 0.575);
+    color: rgba(0, 0, 0, 0.575);
   }
-  
-  .link{
+
+  .link {
     margin-right: 1rem;
-    color:  rgba(0, 0, 0, 0.575);
+    color: rgba(0, 0, 0, 0.575);
   }
-  
-  .fa-file-pdf{
+
+  .fa-file-pdf {
     font-size: 17px;
     position: relative;
     right: 70px;
     top: 30px;
-    
   }
-  .fa-link{
+  .fa-link {
     position: relative;
     right: 80px;
     top: 25px;
     font-size: 13px;
     margin-right: 1px;
   }
-  
-  
-  
-  .accepted{
+
+  .accepted {
     position: relative;
     bottom: 45px;
     margin-top: 4px;
@@ -1433,47 +1200,20 @@
     height: 1.4rem;
     width: 4.5rem;
     background-color: #27b6ba;
-  
   }
-  
+
   .accepted p {
     font-size: 13px;
     position: relative;
     bottom: 0.5rem;
-    color:  white;
+    color: white;
   }
 
-
-
-  .last-card{
+  .last-card {
     width: 23rem;
     height: 36rem;
     margin-left: 4rem;
     margin-bottom: 10rem !important;
     margin-top: 3%;
-    
   }
-  
-  
-
-
-
-
 }
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-

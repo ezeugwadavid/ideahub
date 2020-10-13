@@ -1,7 +1,9 @@
 import React from 'react';
 import {BrowserRouter as Router, Route } from 'react-router-dom';
 import Dashboard from './components/dashboard/Dashboard';
+import Messages from './components/messages/Messages';
 import './Navigation.css';
+import './Messages.css';
 import './App.css';
 
 
@@ -10,9 +12,9 @@ function App() {
     <Router>
     <div className="App">
       <Route exact path="/" component={Dashboard} />
+      <Route exact path="/messages" component={Messages} />
       {/* <Route exact path="/ideas" component={Ideas} />
       <Route exact path="/groups" component={Groups} />
-      <Route exact path="/messages" component={Messages} />
       <Route exact path="/mentors" component={Mentors} />
       <Route exact path="/settings" component={Settings} /> */}
 

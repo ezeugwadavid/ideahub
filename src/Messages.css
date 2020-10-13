@@ -1,0 +1,145 @@
+.msg-body{
+    margin-left: 21%;
+}
+
+.head{
+    font-size: 2.2rem;
+    color: rgba(0, 0, 0, 0.575);
+    margin-top: 0.1rem;
+    
+}
+
+.chatbox{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 17px;
+    width: 75%;
+    height: 90%;
+    padding: 0rem;
+    margin-bottom: 10%;
+    background-color: white;
+    
+
+    
+}
+
+.chats{
+    display: flex;
+    background-color: white;
+    width: 40%;
+    
+   
+  
+}
+
+.chats li{
+    list-style: none;
+    position: relative;
+    right: 2.5rem;
+}
+
+.chat-avatar{
+    position: relative;
+    top: 1.5rem;
+    left: 1.9rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    
+}
+
+.contact-lstmsg{
+    
+    position: relative;
+    top: 1.5rem;
+    left: 0.4rem;
+    font-style: sans-serif;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.575);
+    
+}
+
+.contact-lstmsg p{
+    position: relative;
+    bottom: 2.8rem;
+    left: 4.8rem;
+    color: rgba(0, 0, 0, 0.575);
+    width: 75%;
+   
+    
+
+}
+
+.contact-lstmsg h6{
+    position: relative;
+    left: 4.8rem;
+    bottom: 2.4rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.575);
+    
+
+}
+
+.current-chat{
+    background-color: aqua;
+ 
+}
+
+.contact-header{
+    display: flex;
+    margin-left: 70%;
+    margin-top: 3%;
+}
+
+.contact-details p:first-child{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.575);
+    position: relative;
+    top: 0.4rem;
+}
+.chatted{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.575);
+    position: relative;
+    bottom: 0.8rem;
+}
+
+.chat-content{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.left-mesg{
+    border: 1px solid #27b6ba;
+    border-radius: 17px;
+    border-bottom-left-radius: 0px;
+    height: 2rem;
+    max-height: 8rem;
+    width: 13rem;
+    padding: 0.3rem;
+    background-color: #27b6ba;
+    color: white;
+    
+}
+
+.linked-list{
+    list-style: none;
+  
+}
+
+.hello{
+    font-size: 13px;
+    width: 11rem;
+    margin-left: 0.5rem;
+
+}
+.right-mesg{
+    position: relative;
+    left: 100%;
+   
+    border: 1px solid white;
+   
+    
+}
