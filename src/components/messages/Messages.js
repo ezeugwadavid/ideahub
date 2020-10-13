@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navigation from '../dashboard/Navigation';
 import MessageContent from './MessageContent';
+import '../../Messages.css';
 
  class Messages extends Component {
     render() {
