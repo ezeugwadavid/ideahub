@@ -527,9 +527,7 @@
 
     }
 
-    .fa-file-pdf{
-      
-    }
+   
 
 
 
@@ -552,5 +550,262 @@
 }
 
 
-@media screen and (min-width: 1025px) and (max-width: 2000px) {
+@media screen and (min-width: 650px) and (max-width: 1450px) {
+
+    .msg-card{
+        box-shadow: 7px 7px 7px 7px #ECF4F4;
+        position: absolute !important;
+        left: 5rem !important;
+        top: 95rem !important;
+        width: 29rem !important;
+        height: 36rem !important;
+        margin-right: 10% !important;
+        margin-bottom: 10rem !important;
+        
+     }
+
+
+
+     .cover{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    
+    
+    
+    .head{
+        font-size: 1.9rem;
+        color: rgba(0, 0, 0, 0.575);
+        margin-top: 0.1rem;
+        
+    }
+    
+    .chatbox{
+        display: flex;
+        border: 1px solid rgba(244,244,244);
+        box-shadow: 5px 5px 5px 5px #ECF4F4;
+        border-radius: 17px;
+        width: 97%;
+        height: 80%;
+        padding: 0rem;
+        margin-bottom: 7%;
+        background-color: white;
+        position: relative;
+        right: 20%;
+        
+    
+        
+    }
+    
+    .chats{
+        display: flex;
+        background-color: white;
+        border-top-left-radius: 17px;
+        width: 35%;
+        height: 80%;
+        
+       
+      
+    }
+    
+    .chats li{
+       
+        list-style: none;
+        position: relative;
+        right: 4rem;
+        
+    }
+    
+    .chat-avatar{
+        
+        position: relative;
+        top: 1.5rem;
+        left: 1.9rem;
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 100%;
+        
+    }
+    
+    .contact-lstmsg{
+        width: 100%;
+        position: relative;
+        top: 1.4rem;
+        font-style: sans-serif;
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.575);
+        
+        
+    }
+    
+    .contact-lstmsg p{
+        position: relative;
+        bottom: 2.3rem;
+        left: 3.9rem;
+        color: rgba(0, 0, 0, 0.575);
+        width: 90%;
+       
+        
+    
+    }
+    
+    .contact-lstmsg h6{
+        position: relative;
+        left: 3.9rem;
+        bottom: 1.9rem;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.575);
+        font-size: 15px;
+        
+    
+    }
+    
+    .current-chat{
+        background-color: rgba(244,244,244);
+        width: 68%;
+        border-top-right-radius: 17px;
+        border-bottom-right-radius: 17px;
+        
+     
+    }
+    
+    .contact-header{
+        display: flex;
+        margin-left: 40%;
+        margin-top: 3%;
+       
+    }
+    
+    .user{
+        width: 2.5rem !important;
+        height: 2.5rem !important;
+    }
+    
+    .contact-details{
+        position: relative;
+        bottom: 0.4rem;
+    }
+    
+    .contact-details p:first-child{
+        font-size: 17px;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.575);
+        position: relative;
+        top: 0.4rem;
+    }
+    .chatted{
+        font-size: 13px;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.575);
+        position: relative;
+        bottom: 0.8rem;
+    }
+    
+    .chat-content{
+        margin-left: 2%;
+        margin-right: 2%;
+       
+    }
+    
+    .left-mesg{
+        border: 1px solid #27b6ba;
+        border-radius: 17px;
+        border-bottom-left-radius: 0px;
+        height: 2%;
+        max-height: 5%;
+        width: 36%;
+        padding: 0.7rem;
+        background-color: #27b6ba;
+        color: white;
+        margin-top: 5%;
+        margin-left: 0.5rem;
+        
+    }
+    
+    .linked-list{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    
+    .hello{
+        font-size: 14px;
+        position: relative;
+        bottom: 0.3rem;
+      
+        width: 100%;
+        height: 30%;
+        margin-bottom: 30%;
+        margin-left: 0.15rem;
+    
+    }
+    .right-mesg{
+        position: relative;
+        left: 53%;
+        overflow-x: scroll;
+        
+        border: 1px solid white;
+        border-radius: 17px;
+        border-bottom-left-radius: 0px;
+        background-color: white;
+        width: 39%;
+        height: 39%;
+        padding: 7px;
+        margin-top: 7%;
+       
+        
+    }
+    
+    .the-document{
+        position: relative;
+        left: 54%;
+        background-color: white;
+        border: 1px solid rgba(244,244,244);
+        border-radius: 14px;
+        width: 37%;
+        height: 60%;
+        margin-bottom: 2%;
+        margin-top: 5%;
+    }
+    
+    .document-image img{
+        border-top-left-radius: 14px;
+        border-top-right-radius: 14px;
+        width: 100%;
+        height: 44%;
+    
+    }
+    
+    .image-download{
+        display: flex;
+        margin-top: 7px;
+        margin-left: 4px;
+        
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
 }

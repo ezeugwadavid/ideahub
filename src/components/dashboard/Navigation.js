@@ -19,7 +19,7 @@ class Navigation extends Component {
   resize() {
     const sideRef = this.sideRef.current;
 
-     window.innerWidth <= 1024
+     window.innerWidth <= 1447
        ? (sideRef.style.width = "0")
       : (sideRef.style.width = "250px");
    
