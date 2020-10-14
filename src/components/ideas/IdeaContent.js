@@ -6,19 +6,19 @@ import React, { Component } from 'react';
         return (
             <div className="container">
                 <p className="idea-desc">Ideas</p>
-                <div className="row no-gutters ml-5">
+                <div className="row idea-content no-gutters  ml-5">
                     
-                    <div className=" col-9 shadow table bg-white border">
+                    <div className=" col-9  shadow table bg-white border">
 
                     <ul className="list-group">
-  <li className="list-group-item mb-4 text-muted border-white d-flex justify-content-between align-items-center">
+  <li className="list-group-item mb-4 text-muted  border-white d-flex justify-content-between align-items-center">
    #id
     <span className="text-muted idea-name">Idea name</span>
-    <span className="text-muted submit-date">submit date</span>
-    <span className="text-muted">status</span>
+    <span className="text-muted date submit-date">submit date</span>
+    <span className="text-muted status">status</span>
     
   </li>
-  <li className="list-group-item d-flex justify-content-between align-items-center">
+  <li className="list-group-item text-muted d-flex justify-content-between align-items-center">
   #1
   <span className="text-muted ml-5 justify-content-end pr-0  small">Food processing and auto delivery web app</span>
     <span className="text-muted small">12/10/2020</span>
@@ -38,7 +38,7 @@ import React, { Component } from 'react';
 
                     </div>
                    
-                    <div className="col-4 ml-5 right-card mb-4 shadow  border  bg-white ml-3">
+                    <div className="col-sm-4  ml-5 right-card   mb-4 shadow  border bg-white">
                         <div className="header d-flex mr-3 justify-content-between mb-3">
                         <img
                 className="photo ml-4 mt-4"
@@ -67,10 +67,10 @@ import React, { Component } from 'react';
 
             <div className="socials ml-4 mb-3">
               <div className="linkedin">
-                <i class="fab text-muted fa-linkedin"></i>
+                <i class="fab text-muted icons fa-linkedin"></i>
               </div>
               <div className="twitter ml-2">
-                <i class="fab text-muted fa-twitter"></i>
+                <i class="fab text-muted icons fa-twitter"></i>
               </div>
             </div>
           

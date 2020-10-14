@@ -80,3 +80,221 @@
     z-index: -1;
     color:  rgba(0, 0, 0, 0.575);;
 }
+
+
+@media screen and (max-width: 760px) {
+    
+    .idea-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row{
+        width: 30.5rem;
+        margin-right: 2rem;
+        position: relative;
+        right: 8rem;
+    }
+
+
+
+    .text-muted{
+        font-size: 11px !important;
+    }
+
+  
+
+    .idea-name{
+        position: relative;
+        right: 0.7rem;
+    }
+    
+    .date{
+        margin-right: 3.4rem;
+      
+    }
+
+    .status{
+        position: relative;
+        right: 2.3rem;
+    }
+    
+    .small{
+        font-size: 13px;
+        position: relative;
+        right: 1.8rem;
+    }
+    
+    .badge-primary{
+        width: 20px;
+        height: 20px;
+        background-color:  #27b6ba !important;
+       position: relative;
+       left: 1rem;
+    }
+    
+    .fa-arrow-right{
+        font-size: 12px !important;
+        position: relative;
+        right: 0.1rem;
+        top: 0.1rem;
+        color: white;
+    }
+
+   
+
+    .right-card{
+     position: relative;
+     left: 10%;
+     width: 18rem !important;
+     margin-top: 5rem !important;
+        
+
+    }
+    
+  
+    
+    .photo{
+        height: 60px;
+        width: 60px;
+        border-radius: 100%;
+     
+    }
+    
+    .doe{
+        position: relative;
+        right: 6rem;
+        top: 2rem;
+        font-style: sans-serif !important;
+        color: rgba(0, 0, 0, 0.575);
+    }
+    
+    .doe p{
+        position: relative;
+        bottom: 0.7rem !important;
+    }
+    
+    .para-text{
+        font-size: 13px;
+       
+    }
+    
+    .border{
+        border-radius: 17px;
+    }
+    
+    .idea-desc{
+        position: relative !important;
+        left: 4.5rem !important;
+        font-size: 34px;
+        color: rgba(0, 0, 0, 0.575);
+    }
+    
+    .table{
+        margin-left: 3.5rem;
+    }
+    
+    .light-icon{
+      display: none;
+    }
+
+    .icons{
+        font-size: 25px !important;
+    }
+    
+
+
+
+}
+
+@media screen and (min-width: 760px) and (max-width: 1500px) {
+    .right-card{
+        position: relative;
+        left: 10%;
+        margin-top: 5rem !important;
+           
+   
+       }
+
+       .doe{
+        position: relative;
+        right: 6rem;
+        top: 2rem;
+        font-style: sans-serif !important;
+        color: rgba(0, 0, 0, 0.575);
+    }
+
+    
+  .light-icon{
+    position: relative;
+    left: 21rem;
+    bottom: 17rem;
+    opacity: 0.2;
+    z-index: -1;
+    color:  rgba(0, 0, 0, 0.575);;
+  }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 989px) {
+    .doe{
+        position: relative;
+        right: 0rem;
+        top: 2rem;
+        font-style: sans-serif !important;
+        color: rgba(0, 0, 0, 0.575);
+    }
+
+
+    .right-card{
+      width: 18rem !important;
+           
+   
+       }
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 991px) {
+    .row{
+        width: 40rem;
+    }
+    .idea-name{
+        position: relative;
+        right: 2rem;
+    }
+    
+    .submit-date{
+        position: relative;
+        left: 1rem;
+    
+    }
+    
+    .small{
+        font-size: 15px;
+    }
+    
+    .badge-primary{
+        position: relative !important;
+        left: 6px !important;
+        width: 23px;
+        height: 23px;
+        background-color:  #27b6ba !important;
+    }
+
+    .badge-warning{
+        margin-left: 12px;
+    }
+    
+    .fa-arrow-right{
+        font-size: 2px;
+        position: relative;
+        right: 0.1rem;
+        top: 0.1rem;
+        color: white;
+    }
+
+    .status{
+        position: relative;
+        right: 2rem;
+    }
+}
