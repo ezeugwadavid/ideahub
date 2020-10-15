@@ -56,7 +56,7 @@ class Navigation extends Component {
             ></i>
           </span>
           <div className="topnav">
-            <input className="search" placeholder="Search" type="text"></input>
+            <input className="search" placeholder="Search" type="search"></input>
             
             <div className="rounded">
               <i className="fa fa-bell" aria-hidden="true"></i>

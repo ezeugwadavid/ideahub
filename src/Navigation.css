@@ -139,7 +139,7 @@ nav {
   overflow-y: hidden; /* Disable vertical scroll */
 }
 
-input[type="text"] {
+  input[type="search"] {
   position: relative;
   right: 1.2%;
   -webkit-border-radius: 20px;
@@ -152,7 +152,7 @@ input[type="text"] {
   padding: 20px;
 }
 
-input[type="text"]:focus {
+ input[type="search"]:focus {
   outline: none;
   border: 1px solid #27b6ba;
   color: black;
@@ -393,7 +393,7 @@ input[type="text"]:focus {
     
   }
 
-  input[type="text"] {
+  input[type="search"] {
     position: relative;
     top: 70px;
     left: 13%;
@@ -407,7 +407,7 @@ input[type="text"]:focus {
     padding: 17px;
   }
 
-  input[type="text"]:focus {
+  input[type="search"]:focus {
     outline: none;
     border: 1px solid #27b6ba;
     color: black;
@@ -580,7 +580,7 @@ nav {
   overflow-y: hidden; /* Disable vertical scroll */
 }
 
-input[type="text"] {
+input[type="search"] {
   position: relative;
   right: 2%;
   -webkit-border-radius: 20px;
@@ -593,7 +593,7 @@ input[type="text"] {
   padding: 20px;
 }
 
-input[type="text"]:focus {
+input[type="search"]:focus {
   outline: none;
   border: 1px solid #27b6ba;
   color: black;
@@ -833,7 +833,7 @@ input[type="text"]:focus {
     
   }
 
-  input[type="text"] {
+  input[type="search"] {
     position: relative;
     top: 70px;
     left: 13%;
@@ -847,7 +847,7 @@ input[type="text"]:focus {
     padding: 17px;
   }
 
-  input[type="text"]:focus {
+  input[type="search"]:focus {
     outline: none;
     border: 1px solid #27b6ba;
     color: black;
@@ -1804,7 +1804,7 @@ nav {
   overflow-y: hidden; /* Disable vertical scroll */
 }
 
-input[type="text"] {
+input[type="search"] {
   position: relative;
   right: 2%;
   -webkit-border-radius: 20px;
@@ -1817,7 +1817,7 @@ input[type="text"] {
   padding: 20px;
 }
 
-input[type="text"]:focus {
+input[type="search"]:focus {
   outline: none;
   border: 1px solid #27b6ba;
   color: black;

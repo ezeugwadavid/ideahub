@@ -1,16 +1,22 @@
 .idea-name{
     position: relative;
-    right: 3.7rem;
+    right: 3.8rem;
+    
 }
 
 .submit-date{
     position: relative;
-    left: 1rem;
+    left: 0rem;
 
 }
 
 .small{
     font-size: 13px;
+}
+
+.status{
+    position: relative;
+    right: 7rem;
 }
 
 .badge-primary{
@@ -59,6 +65,11 @@
 
 .border{
     border-radius: 17px;
+
+}
+
+.list-group li{
+    border-color: white;
 }
 
 .idea-desc{

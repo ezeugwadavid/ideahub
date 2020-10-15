@@ -18,14 +18,14 @@ import React, { Component } from 'react';
     <span className="text-muted status">status</span>
     
   </li>
-  <li className="list-group-item text-muted d-flex justify-content-between align-items-center">
+  <li className="list-group-item text-muted  d-flex justify-content-between align-items-center">
   #1
   <span className="text-muted ml-5 justify-content-end pr-0  small">Food processing and auto delivery web app</span>
     <span className="text-muted small">12/10/2020</span>
     <span className="badge badge-pill text-white badge-warning">processing</span>
     <span className="text-muted badge badge-primary badge-pill"><span><i className="fas fa-arrow-right"></i></span></span>
   </li>
-  <li className="list-group-item d-flex justify-content-between align-items-center">
+  <li className="list-group-item d-flex  justify-content-between align-items-center">
   #2
     <span className="badge badge-primary badge-pill">1</span>
   </li>
