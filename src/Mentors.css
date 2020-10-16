@@ -1,0 +1,313 @@
+.powerades {
+  margin-left: 22%;
+  color: rgba(0, 0, 0, 0.575);
+}
+
+.idea-small {
+  font-size: 20px;
+}
+
+.project-desc {
+  font-size: 70px;
+}
+.low-desc {
+  font-weight: 400;
+}
+
+.file-icons {
+  margin-left: 5.5rem;
+}
+
+.link-icons {
+  margin-left: 5rem;
+  position: relative;
+  bottom: 1.5rem;
+}
+
+.date-now {
+  font-weight: 400;
+  position: relative;
+  bottom: 17px;
+}
+
+.prj-img {
+  width: 100%;
+  height: 70%;
+  margin-bottom: 30px;
+  position: relative;
+  bottom: 150px;
+}
+
+.stats-desc {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.prd-crd {
+  width: 300px !important;
+  position: relative;
+  left: 48rem;
+  bottom: 40rem;
+}
+
+.john-de {
+  position: relative;
+  right: 9.5rem;
+  top: 1.5rem;
+}
+
+@media screen and (max-width: 760px) {
+  .powerades {
+    margin-left: 40%;
+    color: rgba(0, 0, 0, 0.575);
+  }
+
+  .idea-small {
+    font-size: 16px;
+  }
+
+  .project-desc {
+    font-size: 50px;
+  }
+
+  .right-content {
+    position: relative;
+    top: 28rem;
+    right: 22rem;
+  }
+
+  .duration {
+    position: relative;
+    right: 38px;
+  }
+  .low-desc {
+    font-weight: 400;
+  }
+
+  .file-icons {
+    margin-left: 4rem;
+  }
+
+  .link-icons {
+    margin-left: 8rem;
+    position: relative;
+    bottom: 1.5rem;
+  }
+
+  .date-now {
+    font-weight: 400;
+    position: relative;
+    bottom: 17px;
+  }
+
+  .prj-img {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+    top: 23rem;
+  }
+
+  .stats-desc {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .prd-crd {
+    width: 300px !important;
+    position: relative;
+    left: 0.5rem;
+    top: 26rem;
+  }
+
+  .john-de {
+    position: relative;
+    right: 5rem;
+    top: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 990px) {
+  .right-content {
+    position: relative;
+    top: 28rem;
+    right: 27rem;
+  }
+
+  .duration {
+    position: relative;
+    right: 38px;
+  }
+  .low-desc {
+    font-weight: 400;
+  }
+
+  .file-icons {
+    margin-left: 4rem;
+  }
+
+  .link-icons {
+    margin-left: 8rem;
+    position: relative;
+    bottom: 1.5rem;
+  }
+
+  .date-now {
+    font-weight: 400;
+    position: relative;
+    bottom: 17px;
+  }
+
+  .prj-img {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    position: relative;
+    top: 7rem;
+  }
+
+  .stats-desc {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .prd-crd {
+    width: 500px !important;
+    position: relative;
+    left: 0.5rem;
+    top: 15rem;
+  }
+
+  .john-de {
+    position: relative;
+    right: 0rem;
+    top: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1500px) {
+  .right-content {
+    position: relative;
+    top: 20rem;
+    right: 39rem;
+    margin-bottom: 4rem;
+  }
+
+  .file-icons {
+    margin-left: 4.5em;
+  }
+
+  .link-icons {
+    margin-left: 5rem;
+    position: relative;
+    bottom: 1.5rem;
+    left: 1rem;
+  }
+
+  .prj-img {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 100px;
+  }
+
+  .prd-crd {
+    width: 300px !important;
+    position: relative;
+    left: 6rem;
+    bottom: 2rem;
+  }
+
+  .john-de {
+    position: relative;
+    right: 6rem;
+    top: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 650px) {
+  .john-de {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 700px) {
+  .right-content {
+    position: relative;
+    top: 28rem;
+    right: 10rem;
+  }
+
+  .duration {
+    position: relative;
+    right: 13px;
+  }
+  .low-desc {
+    font-weight: 400;
+    position: relative;
+    right: 5.3rem;
+  }
+
+  .file-icons {
+    margin-left: 4rem;
+    position: relative;
+    left: 9rem;
+  }
+
+  .link-icons {
+    margin-left: 8rem;
+    position: relative;
+    left: 9rem;
+    bottom: 1.5rem;
+  }
+
+  .date-now {
+    font-weight: 400;
+    position: relative;
+    left: 9rem;
+    bottom: 17px;
+  }
+
+  .prj-img {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    position: relative;
+    top: 7rem;
+  }
+
+  .stats-desc {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    right: 5.5rem;
+  }
+
+  .prd-crd {
+    width: 500px !important;
+    position: relative;
+    left: 0.5rem;
+    top: 15rem;
+  }
+}
+
+/*770 */
+
+@media screen and (min-width: 770px) and (max-width: 989px) {
+  .power-icons {
+    position: relative !important;
+    left: 7rem !important;
+    margin-right: 30rem;
+  }
+
+  .link-icons {
+    margin-left: 1rem;
+    position: relative;
+    left: 2rem;
+    bottom: 1.5rem;
+  }
+}

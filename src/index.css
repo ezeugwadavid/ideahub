@@ -7,11 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #ECF4F4;
   
+  
 }
 
-/* html{
+ html{
   overflow-x: hidden;
-} */
+} 
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

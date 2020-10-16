@@ -1,811 +1,621 @@
-.cover{
+.cover {
+  display: flex;
+}
+
+.msg-card {
+  box-shadow: 7px 7px 7px 7px #ecf4f4;
+  position: relative;
+  top: 10rem !important;
+  left: 4rem;
+  width: 30rem;
+  height: 36rem;
+  margin-bottom: 5rem;
+}
+
+.chat {
+  border: 3px solid #27b6ba;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  margin-right: 10px;
+  width: 30px;
+  height: 25px;
+}
+
+.msg-body {
+  margin-left: 21%;
+}
+
+.head {
+  font-size: 2.2rem;
+  color: rgba(0, 0, 0, 0.575);
+  margin-top: 0.1rem;
+}
+
+.chatbox {
+  display: flex;
+  border: 1px solid rgba(244, 244, 244);
+  box-shadow: 5px 5px 5px 5px #ecf4f4;
+  border-radius: 17px;
+  width: 100%;
+  height: 90%;
+  padding: 0rem;
+  margin-bottom: 7%;
+  background-color: white;
+}
+
+.chats {
+  display: flex;
+  background-color: white;
+  border-top-left-radius: 17px;
+  width: 35%;
+  height: 90%;
+}
+
+.chats li {
+  list-style: none;
+  position: relative;
+  right: 2.5rem;
+}
+
+.chat-avatar {
+  position: relative;
+  top: 1.5rem;
+  left: 1.9rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+}
+
+.contact-lstmsg {
+  position: relative;
+  top: 1.4rem;
+  left: 0.4rem;
+  font-style: sans-serif;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.575);
+}
+
+.contact-lstmsg p {
+  position: relative;
+  bottom: 2.8rem;
+  left: 4.8rem;
+  color: rgba(0, 0, 0, 0.575);
+  width: 75%;
+}
+
+.contact-lstmsg h6 {
+  position: relative;
+  left: 4.8rem;
+  bottom: 2.4rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.575);
+}
+
+.current-chat {
+  background-color: rgba(244, 244, 244);
+  width: 68%;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+}
+
+.contact-header {
+  display: flex;
+  margin-left: 65%;
+  margin-top: 3%;
+}
+
+.user {
+  width: 3rem !important;
+  height: 3rem !important;
+}
+
+.contact-details {
+  position: relative;
+  bottom: 0.4rem;
+}
+
+.contact-details p:first-child {
+  font-size: 17px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.575);
+  position: relative;
+  top: 0.4rem;
+}
+.chatted {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.575);
+  position: relative;
+  bottom: 0.8rem;
+}
+
+.chat-content {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.left-mesg {
+  border: 1px solid #27b6ba;
+  border-radius: 17px;
+  border-bottom-left-radius: 0px;
+  height: 10%;
+  max-height: 40%;
+  width: 43%;
+  padding: 1%;
+  background-color: #27b6ba;
+  color: white;
+  margin-top: 5%;
+  margin-left: 0.5rem;
+}
+
+.linked-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.hello {
+  margin-top: 5%;
+  font-size: 13px;
+  width: 100%;
+  margin-left: 2%;
+}
+.right-mesg {
+  position: relative;
+  left: 54%;
+
+  border: 1px solid white;
+  border-radius: 17px;
+  border-bottom-left-radius: 0px;
+  background-color: white;
+  width: 43%;
+  padding: 7px;
+  margin-top: 7%;
+}
+
+.the-document {
+  position: relative;
+  left: 66%;
+  background-color: white;
+  border: 1px solid rgba(244, 244, 244);
+  border-radius: 17px;
+  width: 27%;
+  height: 70%;
+  margin-bottom: 2%;
+  margin-top: 5%;
+}
+
+.document-image img {
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  width: 100%;
+  height: 54%;
+}
+
+.image-download {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.pdf {
+  margin-left: 0.2rem;
+  font-size: 5px;
+}
+
+.pdf-desc {
+  font-size: 13px;
+  position: relative;
+  right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
     display: flex;
-}
-
-
-
-
-
-
- .msg-card {
-    box-shadow: 7px 7px 7px 7px #ECF4F4;
-    position: relative;
-    top: 10rem !important;
-    left: 4rem;
-    width: 30rem;
-    height: 36rem;
-    margin-bottom: 5rem;
+    flex-direction: column;
   }
-  
-
-  
-  .chat {
-    border: 3px solid #27b6ba;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
-    margin-right: 10px;
-    width: 30px;
-    height: 25px;
+  .msg-card {
+    box-shadow: 7px 7px 7px 7px #ecf4f4;
+    position: absolute !important;
+    left: 3rem !important;
+    top: 45rem !important;
+    width: 17rem !important;
+    height: 36rem !important;
+    margin-right: 30% !important;
+    margin-bottom: 10rem !important;
   }
-  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-.msg-body{
-    margin-left: 21%;
-}
-
-.head{
-    font-size: 2.2rem;
+  .head {
+    font-size: 1.5rem;
     color: rgba(0, 0, 0, 0.575);
     margin-top: 0.1rem;
-    
-}
+  }
 
-.chatbox{
+  .chatbox {
     display: flex;
-    border: 1px solid rgba(244,244,244);
-    box-shadow: 5px 5px 5px 5px #ECF4F4;
+    border: 1px solid rgba(244, 244, 244);
+    box-shadow: 5px 5px 5px 5px #ecf4f4;
     border-radius: 17px;
-    width: 100%;
-    height: 90%;
+    width: 95%;
+    height: 70%;
     padding: 0rem;
     margin-bottom: 7%;
     background-color: white;
-    
+    position: relative;
+    right: 20%;
+  }
 
-    
-}
-
-.chats{
+  .chats {
     display: flex;
     background-color: white;
     border-top-left-radius: 17px;
     width: 35%;
-    height: 90%;
-    
-   
-  
-}
+    height: 70%;
+  }
 
-.chats li{
-    
+  .chats li {
     list-style: none;
     position: relative;
-    right: 2.5rem;
-    
-}
+    right: 4rem;
+  }
 
-.chat-avatar{
-    
+  .chat-avatar {
     position: relative;
     top: 1.5rem;
     left: 1.9rem;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 100%;
-    
-}
+  }
 
-.contact-lstmsg{
-    
+  .contact-lstmsg {
+    width: 100%;
     position: relative;
     top: 1.4rem;
-    left: 0.4rem;
     font-style: sans-serif;
-    font-size: 11px;
+    font-size: 7px;
     color: rgba(0, 0, 0, 0.575);
-    
-}
+  }
 
-.contact-lstmsg p{
+  .contact-lstmsg p {
     position: relative;
-    bottom: 2.8rem;
-    left: 4.8rem;
+    bottom: 2rem;
+    left: 3.5rem;
     color: rgba(0, 0, 0, 0.575);
-    width: 75%;
-   
-    
+    width: 90%;
+  }
 
-}
-
-.contact-lstmsg h6{
+  .contact-lstmsg h6 {
     position: relative;
-    left: 4.8rem;
-    bottom: 2.4rem;
+    left: 3.5rem;
+    bottom: 1.6rem;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.575);
-    
+    font-size: 10px;
+  }
 
-}
-
-.current-chat{
-    background-color: rgba(244,244,244);
+  .current-chat {
+    background-color: rgba(244, 244, 244);
     width: 68%;
     border-top-right-radius: 17px;
     border-bottom-right-radius: 17px;
-    
- 
-}
+  }
 
-.contact-header{
+  .contact-header {
     display: flex;
-    margin-left: 65%;
+    margin-left: 40%;
     margin-top: 3%;
-   
-}
+  }
 
-.user{
-    width: 3rem !important;
-    height: 3rem !important;
-}
+  .user {
+    width: 2rem !important;
+    height: 2rem !important;
+  }
 
-.contact-details{
+  .contact-details {
     position: relative;
     bottom: 0.4rem;
-}
+  }
 
-.contact-details p:first-child{
-    font-size: 17px;
-    font-weight: 700;
+  .contact-details p:first-child {
+    font-size: 15px;
+    font-weight: 600;
     color: rgba(0, 0, 0, 0.575);
     position: relative;
     top: 0.4rem;
+  }
+  .chatted {
+    font-size: 11px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.575);
+    position: relative;
+    bottom: 0.8rem;
+  }
+
+  .chat-content {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .left-mesg {
+    border: 1px solid #27b6ba;
+    border-radius: 17px;
+    border-bottom-left-radius: 0px;
+    height: 1rem;
+    max-height: 8rem;
+    width: 6.5rem;
+    padding: 0.1rem;
+    background-color: #27b6ba;
+    color: white;
+    margin-top: 5%;
+    margin-left: 0.5rem;
+  }
+
+  .linked-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hello {
+    font-size: 7px;
+    position: relative;
+    bottom: 0.3rem;
+
+    width: 100%;
+    height: 30%;
+    margin-bottom: 30%;
+    margin-left: 0.15rem;
+  }
+  .right-mesg {
+    position: relative;
+    left: 53%;
+    overflow-x: scroll;
+
+    border: 1px solid white;
+    border-radius: 17px;
+    border-bottom-left-radius: 0px;
+    background-color: white;
+    width: 39%;
+    height: 39%;
+    padding: 7px;
+    margin-top: 7%;
+  }
+
+  .the-document {
+    position: relative;
+    left: 54%;
+    background-color: white;
+    border: 1px solid rgba(244, 244, 244);
+    border-radius: 14px;
+    width: 37%;
+    height: 60%;
+    margin-bottom: 2%;
+    margin-top: 5%;
+  }
+
+  .document-image img {
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    width: 100%;
+    height: 54%;
+  }
+
+  .image-download {
+    display: flex;
+    margin-top: 7px;
+    margin-left: 4px;
+  }
+  .pdf {
+    margin-left: 0.1rem;
+    font-size: 5px;
+    position: relative;
+    bottom: 1.7rem;
+    left: 3.7rem;
+    margin-bottom: 10px;
+  }
+
+  .pdf-desc {
+    font-size: 6px;
+    position: relative;
+    right: 18px;
+    top: 9.5px;
+  }
 }
-.chatted{
+
+@media screen and (min-width: 650px) and (max-width: 1450px) {
+  .msg-card {
+    box-shadow: 7px 7px 7px 7px #ecf4f4;
+    position: absolute !important;
+    left: 5rem !important;
+    top: 95rem !important;
+    width: 29rem !important;
+    height: 36rem !important;
+    margin-right: 10% !important;
+    margin-bottom: 10rem !important;
+  }
+
+  .cover {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .head {
+    font-size: 1.9rem;
+    color: rgba(0, 0, 0, 0.575);
+    margin-top: 0.1rem;
+  }
+
+  .chatbox {
+    display: flex;
+    border: 1px solid rgba(244, 244, 244);
+    box-shadow: 5px 5px 5px 5px #ecf4f4;
+    border-radius: 17px;
+    width: 97%;
+    height: 80%;
+    padding: 0rem;
+    margin-bottom: 7%;
+    background-color: white;
+    position: relative;
+    right: 20%;
+  }
+
+  .chats {
+    display: flex;
+    background-color: white;
+    border-top-left-radius: 17px;
+    width: 35%;
+    height: 80%;
+  }
+
+  .chats li {
+    list-style: none;
+    position: relative;
+    right: 4rem;
+  }
+
+  .chat-avatar {
+    position: relative;
+    top: 1.5rem;
+    left: 1.9rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 100%;
+  }
+
+  .contact-lstmsg {
+    width: 100%;
+    position: relative;
+    top: 1.4rem;
+    font-style: sans-serif;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.575);
+  }
+
+  .contact-lstmsg p {
+    position: relative;
+    bottom: 2.3rem;
+    left: 3.9rem;
+    color: rgba(0, 0, 0, 0.575);
+    width: 90%;
+  }
+
+  .contact-lstmsg h6 {
+    position: relative;
+    left: 3.9rem;
+    bottom: 1.9rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.575);
+    font-size: 15px;
+  }
+
+  .current-chat {
+    background-color: rgba(244, 244, 244);
+    width: 68%;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+  }
+
+  .contact-header {
+    display: flex;
+    margin-left: 40%;
+    margin-top: 3%;
+  }
+
+  .user {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+  }
+
+  .contact-details {
+    position: relative;
+    bottom: 0.4rem;
+  }
+
+  .contact-details p:first-child {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.575);
+    position: relative;
+    top: 0.4rem;
+  }
+  .chatted {
     font-size: 13px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.575);
     position: relative;
     bottom: 0.8rem;
-}
+  }
 
-.chat-content{
+  .chat-content {
     margin-left: 2%;
     margin-right: 2%;
-   
-}
+  }
 
-.left-mesg{
+  .left-mesg {
     border: 1px solid #27b6ba;
     border-radius: 17px;
     border-bottom-left-radius: 0px;
-    height: 10%;
-    max-height: 40%;
-    width: 43%;
-    padding: 1%;
+    height: 2%;
+    max-height: 5%;
+    width: 36%;
+    padding: 0.7rem;
     background-color: #27b6ba;
     color: white;
     margin-top: 5%;
     margin-left: 0.5rem;
-    
-    
-}
+  }
 
-.linked-list{
+  .linked-list {
     display: flex;
     flex-direction: column;
-  
-}
+  }
 
-.hello{
-    margin-top: 5%;
-    font-size: 13px;
-    width: 100%;
-    margin-left: 2%;
-
-}
-.right-mesg{
+  .hello {
+    font-size: 14px;
     position: relative;
-    left: 54%;
-    
+    bottom: 0.3rem;
+
+    width: 100%;
+    height: 30%;
+    margin-bottom: 30%;
+    margin-left: 0.15rem;
+  }
+  .right-mesg {
+    position: relative;
+    left: 53%;
+    overflow-x: scroll;
+
     border: 1px solid white;
     border-radius: 17px;
     border-bottom-left-radius: 0px;
     background-color: white;
-    width: 43%;
+    width: 39%;
+    height: 39%;
     padding: 7px;
     margin-top: 7%;
-   
-    
-}
+  }
 
-.the-document{
+  .the-document {
     position: relative;
-    left: 66%;
+    left: 54%;
     background-color: white;
-    border: 1px solid rgba(244,244,244);
-    border-radius: 17px;
-    width: 27%;
-    height: 70%;
+    border: 1px solid rgba(244, 244, 244);
+    border-radius: 14px;
+    width: 37%;
+    height: 60%;
     margin-bottom: 2%;
     margin-top: 5%;
-}
+  }
 
-.document-image img{
-    border-top-left-radius: 17px;
-    border-top-right-radius: 17px;
+  .document-image img {
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
     width: 100%;
-    height: 54%;
+    height: 44%;
+  }
 
-}
-
-.image-download{
+  .image-download {
     display: flex;
-    margin-top: 10px;
-    margin-left: 10px;
-    
-}
-.pdf{
-    margin-left: 0.2rem;
-    font-size: 5px;
-}
-
-.pdf-desc{
-    font-size: 13px;
-    position: relative;
-    right: 10px;
-}
-
-
-
-
-
-
-
-@media screen and (max-width: 768px) {
-
-
-    .cover{
-        display: flex;
-        flex-direction: column;
-    }
-    .msg-card{
-        box-shadow: 7px 7px 7px 7px #ECF4F4;
-        position: absolute !important;
-        left: 3rem !important;
-        top: 45rem !important;
-        width: 17rem !important;
-        height: 36rem !important;
-        margin-right: 30% !important;
-        margin-bottom: 10rem !important;
-        
-     }
-    
-    
-    
-    
-    .head{
-        font-size: 1.5rem;
-        color: rgba(0, 0, 0, 0.575);
-        margin-top: 0.1rem;
-        
-    }
-    
-    .chatbox{
-        display: flex;
-        border: 1px solid rgba(244,244,244);
-        box-shadow: 5px 5px 5px 5px #ECF4F4;
-        border-radius: 17px;
-        width: 95%;
-        height: 70%;
-        padding: 0rem;
-        margin-bottom: 7%;
-        background-color: white;
-        position: relative;
-        right: 20%;
-        
-    
-        
-    }
-    
-    .chats{
-        display: flex;
-        background-color: white;
-        border-top-left-radius: 17px;
-        width: 35%;
-        height: 70%;
-        
-       
-      
-    }
-    
-    .chats li{
-        
-        list-style: none;
-        position: relative;
-        right: 4rem;
-        
-    }
-    
-    .chat-avatar{
-        
-        position: relative;
-        top: 1.5rem;
-        left: 1.9rem;
-        width: 1.5rem;
-        height: 1.5rem;
-        border-radius: 100%;
-        
-    }
-    
-    .contact-lstmsg{
-        width: 100%;
-        position: relative;
-        top: 1.4rem;
-        font-style: sans-serif;
-        font-size: 7px;
-        color: rgba(0, 0, 0, 0.575);
-        
-        
-    }
-    
-    .contact-lstmsg p{
-        position: relative;
-        bottom: 2rem;
-        left: 3.5rem;
-        color: rgba(0, 0, 0, 0.575);
-        width: 90%;
-       
-        
-    
-    }
-    
-    .contact-lstmsg h6{
-        position: relative;
-        left: 3.5rem;
-        bottom: 1.6rem;
-        font-weight: 500;
-        color: rgba(0, 0, 0, 0.575);
-        font-size: 10px;
-        
-    
-    }
-    
-    .current-chat{
-        background-color: rgba(244,244,244);
-        width: 68%;
-        border-top-right-radius: 17px;
-        border-bottom-right-radius: 17px;
-        
-     
-    }
-    
-    .contact-header{
-        display: flex;
-        margin-left: 40%;
-        margin-top: 3%;
-       
-    }
-    
-    .user{
-        width: 2rem !important;
-        height: 2rem !important;
-    }
-    
-    .contact-details{
-        position: relative;
-        bottom: 0.4rem;
-    }
-    
-    .contact-details p:first-child{
-        font-size: 15px;
-        font-weight: 600;
-        color: rgba(0, 0, 0, 0.575);
-        position: relative;
-        top: 0.4rem;
-    }
-    .chatted{
-        font-size: 11px;
-        font-weight: 500;
-        color: rgba(0, 0, 0, 0.575);
-        position: relative;
-        bottom: 0.8rem;
-    }
-    
-    .chat-content{
-        margin-left: 2%;
-        margin-right: 2%;
-       
-    }
-    
-    .left-mesg{
-        border: 1px solid #27b6ba;
-        border-radius: 17px;
-        border-bottom-left-radius: 0px;
-        height: 1rem;
-        max-height: 8rem;
-        width: 6.5rem;
-        padding: 0.1rem;
-        background-color: #27b6ba;
-        color: white;
-        margin-top: 5%;
-        margin-left: 0.5rem;
-        
-    }
-    
-    .linked-list{
-        display: flex;
-        flex-direction: column;
-      
-    }
-    
-    .hello{
-        font-size: 7px;
-        position: relative;
-        bottom: 0.3rem;
-      
-        width: 100%;
-        height: 30%;
-        margin-bottom: 30%;
-        margin-left: 0.15rem;
-    
-    }
-    .right-mesg{
-        position: relative;
-        left: 53%;
-        overflow-x: scroll;
-        
-        border: 1px solid white;
-        border-radius: 17px;
-        border-bottom-left-radius: 0px;
-        background-color: white;
-        width: 39%;
-        height: 39%;
-        padding: 7px;
-        margin-top: 7%;
-       
-        
-    }
-    
-    .the-document{
-        position: relative;
-        left: 54%;
-        background-color: white;
-        border: 1px solid rgba(244,244,244);
-        border-radius: 14px;
-        width: 37%;
-        height: 60%;
-        margin-bottom: 2%;
-        margin-top: 5%;
-    }
-    
-    .document-image img{
-        border-top-left-radius: 14px;
-        border-top-right-radius: 14px;
-        width: 100%;
-        height: 54%;
-    
-    }
-    
-    .image-download{
-        display: flex;
-        margin-top: 7px;
-        margin-left: 4px;
-        
-    }
-    .pdf{
-        margin-left: 0.1rem;
-        font-size: 5px;
-        position: relative;
-        bottom: 1.7rem;
-        left: 3.7rem;
-        margin-bottom: 10px;
-    }
-    
-    .pdf-desc{
-        font-size: 6px;
-        position: relative;
-        right: 18px;
-        top: 9.5px;
-
-    }
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-@media screen and (min-width: 650px) and (max-width: 1450px) {
-
-    .msg-card{
-        box-shadow: 7px 7px 7px 7px #ECF4F4;
-        position: absolute !important;
-        left: 5rem !important;
-        top: 95rem !important;
-        width: 29rem !important;
-        height: 36rem !important;
-        margin-right: 10% !important;
-        margin-bottom: 10rem !important;
-        
-     }
-
-
-
-     .cover{
-        display: flex;
-        flex-direction: column;
-    }
-
-    
-    
-    
-    
-    .head{
-        font-size: 1.9rem;
-        color: rgba(0, 0, 0, 0.575);
-        margin-top: 0.1rem;
-        
-    }
-    
-    .chatbox{
-        display: flex;
-        border: 1px solid rgba(244,244,244);
-        box-shadow: 5px 5px 5px 5px #ECF4F4;
-        border-radius: 17px;
-        width: 97%;
-        height: 80%;
-        padding: 0rem;
-        margin-bottom: 7%;
-        background-color: white;
-        position: relative;
-        right: 20%;
-        
-    
-        
-    }
-    
-    .chats{
-        display: flex;
-        background-color: white;
-        border-top-left-radius: 17px;
-        width: 35%;
-        height: 80%;
-        
-       
-      
-    }
-    
-    .chats li{
-       
-        list-style: none;
-        position: relative;
-        right: 4rem;
-        
-    }
-    
-    .chat-avatar{
-        
-        position: relative;
-        top: 1.5rem;
-        left: 1.9rem;
-        width: 1.8rem;
-        height: 1.8rem;
-        border-radius: 100%;
-        
-    }
-    
-    .contact-lstmsg{
-        width: 100%;
-        position: relative;
-        top: 1.4rem;
-        font-style: sans-serif;
-        font-size: 13px;
-        color: rgba(0, 0, 0, 0.575);
-        
-        
-    }
-    
-    .contact-lstmsg p{
-        position: relative;
-        bottom: 2.3rem;
-        left: 3.9rem;
-        color: rgba(0, 0, 0, 0.575);
-        width: 90%;
-       
-        
-    
-    }
-    
-    .contact-lstmsg h6{
-        position: relative;
-        left: 3.9rem;
-        bottom: 1.9rem;
-        font-weight: 500;
-        color: rgba(0, 0, 0, 0.575);
-        font-size: 15px;
-        
-    
-    }
-    
-    .current-chat{
-        background-color: rgba(244,244,244);
-        width: 68%;
-        border-top-right-radius: 17px;
-        border-bottom-right-radius: 17px;
-        
-     
-    }
-    
-    .contact-header{
-        display: flex;
-        margin-left: 40%;
-        margin-top: 3%;
-       
-    }
-    
-    .user{
-        width: 2.5rem !important;
-        height: 2.5rem !important;
-    }
-    
-    .contact-details{
-        position: relative;
-        bottom: 0.4rem;
-    }
-    
-    .contact-details p:first-child{
-        font-size: 17px;
-        font-weight: 600;
-        color: rgba(0, 0, 0, 0.575);
-        position: relative;
-        top: 0.4rem;
-    }
-    .chatted{
-        font-size: 13px;
-        font-weight: 500;
-        color: rgba(0, 0, 0, 0.575);
-        position: relative;
-        bottom: 0.8rem;
-    }
-    
-    .chat-content{
-        margin-left: 2%;
-        margin-right: 2%;
-       
-    }
-    
-    .left-mesg{
-        border: 1px solid #27b6ba;
-        border-radius: 17px;
-        border-bottom-left-radius: 0px;
-        height: 2%;
-        max-height: 5%;
-        width: 36%;
-        padding: 0.7rem;
-        background-color: #27b6ba;
-        color: white;
-        margin-top: 5%;
-        margin-left: 0.5rem;
-        
-    }
-    
-    .linked-list{
-        display: flex;
-        flex-direction: column;
-      
-    }
-    
-    .hello{
-        font-size: 14px;
-        position: relative;
-        bottom: 0.3rem;
-      
-        width: 100%;
-        height: 30%;
-        margin-bottom: 30%;
-        margin-left: 0.15rem;
-    
-    }
-    .right-mesg{
-        position: relative;
-        left: 53%;
-        overflow-x: scroll;
-        
-        border: 1px solid white;
-        border-radius: 17px;
-        border-bottom-left-radius: 0px;
-        background-color: white;
-        width: 39%;
-        height: 39%;
-        padding: 7px;
-        margin-top: 7%;
-       
-        
-    }
-    
-    .the-document{
-        position: relative;
-        left: 54%;
-        background-color: white;
-        border: 1px solid rgba(244,244,244);
-        border-radius: 14px;
-        width: 37%;
-        height: 60%;
-        margin-bottom: 2%;
-        margin-top: 5%;
-    }
-    
-    .document-image img{
-        border-top-left-radius: 14px;
-        border-top-right-radius: 14px;
-        width: 100%;
-        height: 44%;
-    
-    }
-    
-    .image-download{
-        display: flex;
-        margin-top: 7px;
-        margin-left: 4px;
-        
-    }
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
+    margin-top: 7px;
+    margin-left: 4px;
+  }
 }

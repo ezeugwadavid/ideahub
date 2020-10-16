@@ -3,8 +3,11 @@ import { Link } from "react-router-dom";
 
 
 class Navigation extends Component {
+
   constructor(props) {
     super(props);
+   
+
 
     this.sideRef = React.createRef();
   }
@@ -13,6 +16,12 @@ class Navigation extends Component {
     window.addEventListener("resize", this.resize.bind(this));
     this.resize();
   }
+
+
+
+
+
+
 
   // removes sidebar for the break point
 
@@ -103,30 +112,30 @@ class Navigation extends Component {
             ></img>
           </div>
           <ul className="nav flex-column ">
-            <li className="nav-item active shadow">
+            <li className={this.state.dashboard ? 'nav-item' : 'nav-item  shadow active'}>
               <Link className="nav-link link-color" to="/">
                 {" "}
                 <i className="fas  fa-home"></i>Dashboard
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/ideas">
+              <Link className={this.state.ideas ? 'nav-item' : 'nav-item  shadow active'} to="/ideas">
                 {" "}
                 <i className="far fa-lightbulb"></i>Ideas
               </Link>
             </li>
-            <li className="nav-item">
+            <li className={this.state.groups ? 'nav-item' : 'nav-item  shadow active'}>
               <Link className="nav-link" to="/groups">
                 <i className="fas fa-user-friends"></i>Groups
               </Link>
             </li>
-            <li className="nav-item">
+            <li className={this.state.messages ? 'nav-item' : 'nav-item  shadow active'}>
               <Link to="/messages" className="nav-link" >
                 <i className="far fa-envelope"></i>Messages
-                <span className="ml-2 five">5</span>
+                 <span className="ml-2 five">5</span>  
               </Link>
             </li>
-            <li className="nav-item">
+            <li className={this.state.mentors ? 'nav-item' : 'nav-item  shadow active'}>
               <Link className="nav-link mentor" to="/mentors">
                 <i class="fas fa-user-graduate"></i>Mentors
               </Link>
