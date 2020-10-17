@@ -4,10 +4,26 @@ import Navigation from '../../components/dashboard/Navigation';
 import '../../Idea.css';
 
  class Ideas extends Component {
+     state = {
+      ideas: false
+  
+     }
+
+
+    componentDidMount() {
+        this.toggleIdeasActive()
+      }
+
+      toggleIdeasActive(){
+        this.setState({ ideas: true})
+    
+      }
+
+
     render() {
         return (
             <div>
-                <Navigation />
+                <Navigation ideasActive={this.state.ideas}/>
                <IdeaContent />
                 
             </div>

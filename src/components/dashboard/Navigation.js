@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 class Navigation extends Component {
@@ -54,6 +54,11 @@ class Navigation extends Component {
   };
 
   render() {
+    const {dashboard } = this.props
+    const {ideas } = this.props
+    const {messages } = this.props
+    const {groups } = this.props
+    const {mentors } = this.props
     return (
       <div>
         <nav>
@@ -112,38 +117,33 @@ class Navigation extends Component {
             ></img>
           </div>
           <ul className="nav flex-column ">
-            <li className={this.state.dashboard ? 'nav-item' : 'nav-item  shadow active'}>
-              <Link className="nav-link link-color" to="/">
+            <li className= "nav-item">
+              <NavLink  shadowClassName="shadow active" className="nav-link" to="/dashboard">
                 {" "}
-                <i className="fas  fa-home"></i>Dashboard
-              </Link>
+                <i   shadowClassName=" shadow-icon" className="fas  fa-home"></i>Dashboard
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className={this.state.ideas ? 'nav-item' : 'nav-item  shadow active'} to="/ideas">
+              <NavLink  shadowClassName="shadow active" className="nav-link" to="/ideas">
                 {" "}
                 <i className="far fa-lightbulb"></i>Ideas
-              </Link>
-            </li>
-            <li className={this.state.groups ? 'nav-item' : 'nav-item  shadow active'}>
-              <Link className="nav-link" to="/groups">
-                <i className="fas fa-user-friends"></i>Groups
-              </Link>
-            </li>
-            <li className={this.state.messages ? 'nav-item' : 'nav-item  shadow active'}>
-              <Link to="/messages" className="nav-link" >
-                <i className="far fa-envelope"></i>Messages
-                 <span className="ml-2 five">5</span>  
-              </Link>
-            </li>
-            <li className={this.state.mentors ? 'nav-item' : 'nav-item  shadow active'}>
-              <Link className="nav-link mentor" to="/mentors">
-                <i class="fas fa-user-graduate"></i>Mentors
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link setting" to="/settings">
-                <i className="fas fa-cog"></i>Settings
-              </Link>
+              <NavLink  shadowClassName="shadow active" className="nav-link" to="/groups">
+                <i className="fas fa-user-friends"></i>Groups
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink  shadowClassName="shadow active" to="/messages" className="nav-link" >
+                <i className="far fa-envelope"></i>Messages
+                <sup className="m-2 five"><span>5</span></sup>
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink  shadowClassName="shadow active" className="nav-link mentor" to="/mentors">
+                <i class="fas fa-user-graduate"></i>Mentors
+              </NavLink>
             </li>
           </ul>
           <div className="nav-footer">
