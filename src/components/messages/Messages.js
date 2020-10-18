@@ -60,19 +60,13 @@ import '../../Messages.css';
 
   
      }
-      componentDidMount() {
-        this.toggleMessagesActive()
-      }
+   
 
-      toggleMessagesActive(){
-        this.setState({ messages: true})
-    
-      }
 
     render() {
         return (
             <div>
-             <Navigation  messagesActive={this.state.messages}/>
+             <Navigation />
              <MessageContent contacts={this.state.contacts}/>
                 
             </div>

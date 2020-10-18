@@ -1,6 +1,29 @@
 import React, { Component } from 'react'
 class MessageContent extends Component {
+  
   render() {
+    const { contacts } = this.props;
+    const contactList = contacts.map((contact) => (
+
+      
+      <li>
+        <div className="contact-image">
+          <img
+            className="chat-avatar"
+            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=200"
+          ></img>
+        </div>
+
+        <div className="contact-lstmsg">
+        <h6>{contact.name}</h6>
+        <p>{contact.mesg}</p>
+        </div>
+      </li>
+    
+
+
+
+      ))
     return (
       <div className="container msg-body">
         <p className="head">Messages</p>
@@ -22,7 +45,9 @@ class MessageContent extends Component {
                     <p>Hey! when can you send the document for the...</p>
                   </div>
                 </li>
+                {contactList}
               </ul>
+            
             </div>
 
             <div className="current-chat">

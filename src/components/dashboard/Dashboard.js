@@ -6,29 +6,10 @@ import Body from '../dashboard/Body';
 
 
  class Dashboard extends Component  {
-
-  state = {
-    dashboard: false  
-}
-
-componentDidMount(){
-  this.toggleDashboardActive()
-}
-
-
-
-
-  toggleDashboardActive(){
-  this.setState({ dashboard: true})
-
-   }
-
- 
-
    render() {
    return (
     <div>
-      <Navigation dashboardActive={this.state.dashboard} />
+      <Navigation />
       <Body />
 
     </div>

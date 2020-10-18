@@ -3,6 +3,33 @@ import React, { Component } from 'react';
 
  class IdeaContent extends Component {
    render() {
+     const { Ideas } = this.props;
+     const IdeaList = Ideas.map((Idea) => (
+
+      <li className="list-group-item text-muted  d-flex justify-content-between align-items-center">
+      {Idea.id}
+      <span className="text-muted ml-5 justify-content-end pr-0  small">
+      {Idea.ideaname}
+      </span>
+     <span className="text-muted small">{Idea.submitdate}</span>
+      <span className={Idea.status === 'rejected' ? 'badge badge-pill text-white badge-danger' :
+       'badge badge-pill text-white badge-warning' }>
+        {Idea.status}
+      </span>
+      <span className="text-muted badge badge-primary badge-pill">
+        <span>
+          <i className="fas fa-arrow-right"></i>
+        </span>
+      </span>
+    </li>
+
+      
+ 
+    
+
+
+
+      ))
      return (
        <div className="container">
          <p className="idea-desc">Ideas</p>
@@ -32,6 +59,7 @@ import React, { Component } from 'react';
                    </span>
                  </span>
                </li>
+               {IdeaList}
                <li className="list-group-item d-flex  justify-content-between align-items-center">
                  #2
                  <span className="badge badge-primary badge-pill">1</span>

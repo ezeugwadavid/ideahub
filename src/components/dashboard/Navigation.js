@@ -54,11 +54,6 @@ class Navigation extends Component {
   };
 
   render() {
-    const {dashboard } = this.props
-    const {ideas } = this.props
-    const {messages } = this.props
-    const {groups } = this.props
-    const {mentors } = this.props
     return (
       <div>
         <nav>

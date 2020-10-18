@@ -10,14 +10,6 @@ import "./Navigation.css";
 import "./Body.css";
 
 class App extends Component {
-  //    state = {
-  //     dashboard: false,
-  //     ideas: true,
-  //     groups: true,
-  //     messages: false,
-  //     mentors: false
-
-  // }
 
   render() {
     return (

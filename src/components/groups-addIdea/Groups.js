@@ -6,27 +6,10 @@ import '../../Groups.css';
 
 export default class Groups extends Component {
 
-    state = {
-        groups: false
-      
-    }
-    componentDidMount() {
-        this.toggleGroupsActive()
-      }
-
-      toggleGroupsActive(){
-        this.setState({ groups: true})
-        
-    
-      }
-
-      
-
-
     render() {
         return (
             <div>
-            <Navigation groupsActive={this.state.groups}/>
+            <Navigation />
             <GroupContent />
             </div>
           
