@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 
  class IdeaContent extends Component {
@@ -13,7 +14,7 @@ import React, { Component } from 'react';
       </span>
      <span className="text-muted small">{Idea.submitdate}</span>
       <span className={Idea.status === 'rejected' ? 'badge badge-pill text-white badge-danger' :
-       'badge badge-pill text-white badge-warning' }>
+       Idea.status === 'accepted' ? 'badge badge-pill text-white badge-info' : 'badge badge-pill text-white badge-warning' }>
         {Idea.status}
       </span>
       <span className="text-muted badge badge-primary badge-pill">
@@ -60,10 +61,7 @@ import React, { Component } from 'react';
                  </span>
                </li>
                {IdeaList}
-               <li className="list-group-item d-flex  justify-content-between align-items-center">
-                 #2
-                 <span className="badge badge-primary badge-pill">1</span>
-               </li>
+              
              </ul>
            </div>
 
@@ -115,6 +113,11 @@ import React, { Component } from 'react';
      );
    }
  }
+
+
+ IdeaContent.propTypes = {
+  Ideas: PropTypes.object.isRequired 
+}
 
 
 export default IdeaContent;

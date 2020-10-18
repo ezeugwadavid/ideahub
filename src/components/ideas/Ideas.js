@@ -17,7 +17,7 @@ import '../../Idea.css';
       {
       id: '#3',
      ideaname: 'machine design and delivery web  application',
-     status: 'processing',
+     status: 'accepted',
      submitdate: '6/11/2020'
       },
 

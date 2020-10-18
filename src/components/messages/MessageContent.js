@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 class MessageContent extends Component {
   
   render() {
@@ -158,5 +159,9 @@ class MessageContent extends Component {
   }
 }
 
+
+MessageContent.propTypes = {
+  contacts: PropTypes.object.isRequired 
+}
 
 export default MessageContent;

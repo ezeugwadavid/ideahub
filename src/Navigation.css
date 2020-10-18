@@ -43,6 +43,8 @@
 .active {
   border: 1px solid white;
   color: white !important;
+  
+  box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.123);
 
   background-color: #27b6ba;
   border-radius: 34px;
@@ -302,6 +304,7 @@ nav {
     border: 1px solid white;
     background-color: #27b6ba;
     border-radius: 20px;
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.123);
     width: auto;
     padding: 10px auto;
   }
@@ -741,6 +744,7 @@ input[type="search"]:focus {
   }
 
   .active {
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.123);
     border: 1px solid white;
     background-color: #27b6ba;
     border-radius: 20px;
@@ -956,6 +960,7 @@ input[type="search"]:focus {
   }
 
   .active {
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.123);
     border: 1px solid white;
     background-color: #27b6ba;
     border-radius: 20px;

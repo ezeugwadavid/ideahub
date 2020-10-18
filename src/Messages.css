@@ -3,7 +3,7 @@
 }
 
 .msg-card {
-  box-shadow: 7px 7px 7px 7px #ecf4f4;
+  box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.123);
   position: relative;
   top: 10rem !important;
   left: 4rem;
@@ -14,6 +14,7 @@
 
 .chat {
   border: 3px solid #27b6ba;
+  box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.123);
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
@@ -35,7 +36,7 @@
 .chatbox {
   display: flex;
   border: 1px solid rgba(244, 244, 244);
-  box-shadow: 5px 5px 5px 5px #ecf4f4;
+  box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.123);
   border-radius: 17px;
   width: 100%;
   height: 90%;
@@ -214,10 +215,10 @@
     flex-direction: column;
   }
   .msg-card {
-    box-shadow: 7px 7px 7px 7px #ecf4f4;
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.123);
     position: absolute !important;
     left: 3rem !important;
-    top: 45rem !important;
+    top: 70rem !important;
     width: 17rem !important;
     height: 36rem !important;
     margin-right: 30% !important;
@@ -233,7 +234,7 @@
   .chatbox {
     display: flex;
     border: 1px solid rgba(244, 244, 244);
-    box-shadow: 5px 5px 5px 5px #ecf4f4;
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.123);
     border-radius: 17px;
     width: 95%;
     height: 70%;
@@ -248,7 +249,7 @@
     display: flex;
     background-color: white;
     border-top-left-radius: 17px;
-    width: 35%;
+    width: 39%;
     height: 70%;
   }
 
@@ -423,7 +424,7 @@
 
 @media screen and (min-width: 650px) and (max-width: 1450px) {
   .msg-card {
-    box-shadow: 7px 7px 7px 7px #ecf4f4;
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.123);
     position: absolute !important;
     left: 5rem !important;
     top: 95rem !important;
