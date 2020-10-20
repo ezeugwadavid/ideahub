@@ -1825,3 +1825,17 @@
     font-size: 30px;
   }
 }
+
+@media screen and (min-width: 2000px) and (max-width: 2300px) {
+
+  .last-card {
+    position: relative;
+    bottom: 1rem;
+    left: 1%;
+    width: 40%;
+    height: 36rem;
+    margin-left: 0rem;
+    margin-bottom: 10rem !important;
+    margin-top: 3%;
+  }
+}

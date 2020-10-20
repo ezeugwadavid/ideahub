@@ -1,4 +1,5 @@
 /* body's backgroud color in index.css */
+@media screen and (min-width: 1447px)  {
 
 /* side nav */
 
@@ -25,7 +26,7 @@
 }
 
 .far-bars {
-  display: none;
+  display: none !important;
 }
 
 .nav {
@@ -255,6 +256,8 @@ nav {
   color: rgba(0, 0, 0, 0.575);
 }
 
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 13px;
@@ -269,7 +272,7 @@ nav {
   .sidenav {
     transition: 0.3s;
     height: 100%; /* 100% Full-height */
-    width: 250px; /* 0 width - change this with JavaScript */
+    width: 0px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -298,11 +301,16 @@ nav {
     margin-left: 5%;
     padding: 6px;
     width: 80%;
+    color: rgba(0, 0, 0, 0.123) !important;
+  }
+  .nav-link{
+    color: rgba(0, 0, 0, 0.575) !important;
   }
 
   .active {
     border: 1px solid white;
     background-color: #27b6ba;
+    color: white !important;
     border-radius: 20px;
     box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.123);
     width: auto;
@@ -365,6 +373,7 @@ nav {
     font-size: 25px;
     margin-left: 50px;
   }
+
   .fa-bars {
     display: block;
     border: 1px solid rgba(0, 0, 0, 0.575);
@@ -446,8 +455,8 @@ nav {
 
   .john {
     position: relative;
-    left: 78%;
-    bottom: 55px;
+    left: 79%;
+    bottom: 30px;
     color: rgba(0, 0, 0, 0.575);
     font-size: 7px;
     font-family: sans-serif;
@@ -457,18 +466,18 @@ nav {
   .john p {
     position: relative;
     bottom: 8px;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .john-doe {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
   }
 
   .fa-chevron-down {
     position: relative;
     bottom: 50px;
-    left: 55px;
+    left: 60px;
     font-size: 15px;
     color: rgba(0, 0, 0, 0.575);
   }
@@ -712,7 +721,7 @@ input[type="search"]:focus {
   .sidenav {
     transition: 0.3s;
     height: 100%; /* 100% Full-height */
-    width: 250px; /* 0 width - change this with JavaScript */
+    width: 0px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -743,10 +752,15 @@ input[type="search"]:focus {
     width: 80%;
   }
 
+  .nav-link{
+    color: rgba(0, 0, 0, 0.575) !important;
+  }
+
   .active {
     box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.123);
     border: 1px solid white;
     background-color: #27b6ba;
+    color: white !important;
     border-radius: 20px;
     width: auto;
     padding: 10px auto;
@@ -809,7 +823,7 @@ input[type="search"]:focus {
     margin-left: 50px;
   }
   .fa-bars {
-    display: block;
+    
     border: 1px solid rgba(0, 0, 0, 0.575);
     border-width: 2px;
     padding: 7px;
@@ -889,10 +903,10 @@ input[type="search"]:focus {
 
   .john {
     position: relative;
-    left: 78%;
-    bottom: 55px;
+    left: 79%;
+    bottom: 30px;
     color: rgba(0, 0, 0, 0.575);
-    font-size: 7px;
+    font-size: 13px;
     font-family: sans-serif;
     font-weight: 400;
   }
@@ -900,18 +914,18 @@ input[type="search"]:focus {
   .john p {
     position: relative;
     bottom: 8px;
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .john-doe {
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 700;
   }
 
   .fa-chevron-down {
     position: relative;
     bottom: 50px;
-    left: 55px;
+    left: 65px;
     font-size: 15px;
     color: rgba(0, 0, 0, 0.575);
   }

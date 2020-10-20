@@ -12,10 +12,6 @@ class Navigation extends Component {
     this.sideRef = React.createRef();
   }
 
-  componentDidMount() {
-    window.addEventListener("resize", this.resize.bind(this));
-    this.resize();
-  }
 
 
 
@@ -23,20 +19,9 @@ class Navigation extends Component {
 
 
 
-  // removes sidebar for the break point
 
-  resize() {
-    const sideRef = this.sideRef.current;
 
-     window.innerWidth <= 1447
-       ? (sideRef.style.width = "0")
-      : (sideRef.style.width = "250px");
-   
-  }
 
-  componentWillUnmount() {
-    window.removeEventListener("resize", this.resize.bind(this));
-  }
 
   // toggle nav menu
 
@@ -113,30 +98,30 @@ class Navigation extends Component {
           </div>
           <ul className="nav flex-column ">
             <li className= "nav-item">
-              <NavLink  shadowClassName="shadow active" className="nav-link" to="/dashboard">
+              <NavLink  activeClassName="shadow active" className="nav-link" to="/dashboard">
                 {" "}
-                <i   shadowClassName=" shadow-icon" className="fas  fa-home"></i>Dashboard
+                <i   activeClassName=" shadow-icon" className="fas  fa-home"></i>Dashboard
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink  shadowClassName="shadow active" className="nav-link" to="/ideas">
+              <NavLink  activeClassName="shadow active" className="nav-link" to="/ideas">
                 {" "}
                 <i className="far fa-lightbulb"></i>Ideas
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink  shadowClassName="shadow active" className="nav-link" to="/groups">
+              <NavLink  activeClassName="shadow active" className="nav-link" to="/groups">
                 <i className="fas fa-user-friends"></i>Groups
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink  shadowClassName="shadow active" to="/messages" className="nav-link" >
+              <NavLink  activeClassName="shadow active" to="/messages" className="nav-link" >
                 <i className="far fa-envelope"></i>Messages
                 <sup className="m-2 five"><span>5</span></sup>
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink  shadowClassName="shadow active" className="nav-link mentor" to="/mentors">
+              <NavLink  activeClassName="shadow active" className="nav-link mentor" to="/mentors">
                 <i class="fas fa-user-graduate"></i>Mentors
               </NavLink>
             </li>
